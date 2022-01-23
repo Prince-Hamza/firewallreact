@@ -1,0 +1,319 @@
+.img-equip {
+    height: 8rem;
+    width: 100%;
+    background-image: url("../../Home/CarouselGallery/img/g1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.col-left {
+    padding-left: 0px!important;
+}
+
+.col-right {
+    padding-left: 0px!important;
+}
+
+.col-height {
+    max-height: 8rem;
+}
+
+
+/*  */
+
+.listScroll {
+    width: 90%;
+    max-width: 350px;
+    margin: auto!important;
+    max-height: 13rem;
+    overflow-y: auto;
+}
+
+.listScroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+.listScroll::-webkit-scrollbar-track {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.listScroll::-webkit-scrollbar-thumb {
+    background: #dc3545;
+    border-radius: 10px;
+}
+
+.listScroll::-webkit-scrollbar-thumb:hover {
+    background: #cf6b75;
+}
+
+
+/*  */
+
+.discover-div {
+    background-image: url("../../Home/CarouselGallery/img/g1.jpg");
+    width: 100%;
+    height: 35rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.discover {
+    transform: rotate(-90deg);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.discover-parent {
+    width: 7rem;
+    height: 18rem;
+}
+
+.overlay-container {
+    background: #1d1d1d8a;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+}
+
+
+/*  */
+
+.connect-container {
+    background-image: url("../../Home/CarouselGallery/img/g2.jpg");
+    width: 100%;
+    height: 25.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.yellow {
+    background-color: #f58a09;
+}
+
+.yellowtxt {
+    color: #f58a09;
+}
+
+
+/* modals right side */
+
+.modals-right {
+    background-color: #f7f7f7;
+    border-radius: 15px;
+}
+
+.img-modal {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+
+/*  */
+
+.grid-comm {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*  */
+
+.input-number {
+    border: 2px solid #f7f7f7!important;
+    width: 3rem;
+}
+
+.input-number:focus {
+    outline: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.for-length-short-height {
+    height: 10rem!important;
+}
+
+@media (min-width:1024px) and (max-width:1366px) {
+    .discover-div {
+        background-image: url("../../Home/CarouselGallery/img/g1.jpg");
+        width: 100%;
+        height: 35rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .MuiListItem-dense {
+        padding-top: 4px!important;
+        padding-bottom: 4px!important;
+    }
+    .MuiListItem-gutters {
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+    }
+    .MuiListItemIcon-root {
+        min-width: 35px!important;
+        width: 35px!important;
+    }
+    .input-searchbar {
+        width: 9rem!important;
+    }
+    .titlename {
+        font-size: small;
+    }
+    .discover-parent {
+        width: 5rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .discover-div {
+        background-image: url("../../Home/CarouselGallery/img/g1.jpg");
+        width: 100%;
+        height: 35rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .MuiListItem-dense {
+        padding-top: 4px!important;
+        padding-bottom: 4px!important;
+    }
+    .MuiListItem-gutters {
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+    }
+    .MuiListItemIcon-root {
+        min-width: 35px!important;
+        width: 35px!important;
+    }
+    .input-searchbar {
+        width: 9rem!important;
+    }
+    .titlename {
+        font-size: small;
+    }
+    .discover-parent {
+        width: 5rem;
+    }
+    .col-hero-equip {
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+        padding-top: .7rem!important;
+        padding-bottom: 0rem!important;
+        font-size: smaller;
+    }
+    .grid-container,
+    .grid-comm {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .input-searchbar {
+        width: 9rem!important;
+    }
+    .img-upper-pagin {
+        width: 30%!important;
+    }
+    .first-img-hero {
+        height: 8rem;
+        margin-bottom: .5rem;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .discover-div {
+        background-image: url("../../Home/CarouselGallery/img/g1.jpg");
+        width: 90%;
+        height: 15rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .col-hero-equip {
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+        padding-top: .7rem!important;
+        padding-bottom: 0rem!important;
+        font-size: smaller;
+    }
+    .first-img-hero {
+        height: 8rem;
+        padding-left: 12px!important;
+    }
+    .bottom {
+        margin-bottom: .5rem;
+    }
+    .txt-hero-cont {
+        width: 94%;
+        margin: auto auto .5rem auto;
+    }
+    .equip-parent {
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .listScroll {
+        max-height: 10rem;
+    }
+    .discover-div {
+        height: 23rem;
+    }
+    .discover {
+        transform: rotate(-90deg);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .discover-parent {
+        width: 6rem;
+        height: 12rem;
+    }
+    .overlay-container {
+        height: 33%;
+    }
+    .connect-container {
+        height: 20rem;
+    }
+    .grid-container,
+    .grid-comm {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-container {
+        margin-top: 1rem;
+    }
+    .btn-size {
+        font-size: smaller;
+    }
+    .img-upper-pagin {
+        width: 50%!important;
+    }
+    .flex-extra {
+        flex-direction: column-reverse;
+    }
+    .ms-txt {
+        margin-left: 0px!important;
+    }
+    .btn-extra-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: .5rem;
+        justify-items: center;
+    }
+    .fa-heart {
+        margin-top: .5rem;
+    }
+}

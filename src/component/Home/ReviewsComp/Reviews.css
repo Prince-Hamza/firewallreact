@@ -1,0 +1,28 @@
+.col-reviews {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.img-cont-review {
+    height: 300px;
+}
+
+.aTag{
+    color: black!important;
+    text-decoration: none;
+}
+
+.name{
+    display: 'flex';
+    
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .name{
+        display: 'flex';
+        font-size: 12px!important;
+     
+        width:'85%'
+        
+    }
+}

@@ -1,0 +1,87 @@
+.usb{
+    width:25%;
+    margin: 10px;
+    background-image: url('./img/usb.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.formpage{
+    width:80%;
+    margin: 10px;
+    background-image: url('./img/form.png');
+    background-color:'#F1F1F1';
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.form{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:85%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.input{
+    margin: 10px;
+    width:40%;
+    border-color:#D32229;
+    padding: 5px;
+    color: #D32229;
+   
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:0px) and (max-width:767px) {
+
+    .usb{
+        
+        width:45%;
+        margin: 5px;
+        background-image: url('./img/usb.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .formpage{
+       
+        width:55%;
+        margin: 5px;
+        background-image: url('./img/form.png');
+        background-color:'#F1F1F1';
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+    .form{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width:13rem;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .input{
+       
+        justify-content: center;
+        justify-items: center;
+        padding: 5px;
+        width:90%;
+        border-color:#D32229;
+       color:#D32229;
+    }
+    
+}

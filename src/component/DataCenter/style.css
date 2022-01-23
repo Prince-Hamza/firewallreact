@@ -1,0 +1,72 @@
+.architect-main, .request-main {
+    background-color: #29617d;
+}
+
+.span-letter-spc {
+    letter-spacing: 2px;
+}
+
+.text-of-heading {
+    width: 30rem;
+}
+
+.list-group-item.active {
+    color: white!important;
+    background-color: rgb(211 34 41);
+    border-color: rgb(211 34 41);
+}
+
+.list-group-item {
+    background-color:white;
+    margin-top: 5px!important;
+    border: none!important;
+}
+
+.MuiAvatar-colorDefault {
+    background-color: white!important;
+}
+
+.MuiAvatar-root {
+    width: 50px!important;
+    height: 50px!important;
+}
+
+.detail-text {
+    position: relative;
+    top: 10px;
+}
+
+.btn-request {
+    background-color: rgb(92 167 204);
+    color: white;
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .req-image {
+        width: 100%!important;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .hero-sec-text {
+        font-size: smaller!important;
+        letter-spacing: 0px;
+        font-weight: 400!important;
+    }
+    .architext-sub-main, .bygga-parent {
+        text-align: center;
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
+    .bygga-text-heading {
+        font-size: large!important;
+    }
+    .text-of-heading{
+        width: 95%;
+    }
+
+    .req-image {
+        width: 100%!important;
+        margin-top: 2rem;
+    }
+}

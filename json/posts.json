@@ -1,0 +1,875 @@
+[
+    {
+        "id": 491495,
+        "date": "2021-10-09T20:01:14",
+        "date_gmt": "2021-10-09T18:01:14",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=491495"
+        },
+        "modified": "2021-10-10T15:05:36",
+        "modified_gmt": "2021-10-10T13:05:36",
+        "slug": "5-anvandningsfall-for-cisco-saker-sd-wan",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/",
+        "title": {
+            "rendered": "5 anv\u00e4ndningsfall f\u00f6r Cisco S\u00e4ker SD-WAN"
+        },
+        "content": {
+            "rendered": "\n<h2>Cisco SD-WAN. Skydda anv\u00e4ndarnas \u00e5tkomst till applikationer var som helst och n\u00e4r som helst.<\/h2>\n\n\n\n<figure class=\"wp-block-image size-full\"><a href=\"https:\/\/sites.ziftsolutions.com\/cisco.ziftsolutions.com\/8a9982697c5b1012017c5b2ea8790a65\"><img width=\"3334\" height=\"14667\" src=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1.png\" alt=\"\" class=\"wp-image-491530\" srcset=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1.png 3334w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1-68x300.png 68w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1-233x1024.png 233w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1-768x3379.png 768w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1-349x1536.png 349w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1-300x1320.png 300w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/nb06sdwanusecasesinfographcteen_1-1-1-600x2640.png 600w\" sizes=\"(max-width: 3334px) 100vw, 3334px\" \/><\/a><figcaption>https:\/\/sites.ziftsolutions.com\/cisco.ziftsolutions.com\/8a9982697c5b1012017c5b2ea8790a65<br>https:\/\/static.ziftsolutions.com\/files\/8a99828f75195054017528a130181d07\/nb06sdwanusecasesinfographcteen_1.pdf<br>https:\/\/static.ziftsolutions.com\/files\/8a99833d75195eb70175282c20654025\/Cisco_SDWAN_AtAGlance.pdf<br>https:\/\/cisco.com<br>https:\/\/www.silver-peak.com\/2021-sd-wan-edge-trends-ebook?ppctype=google_emea_gene_SDWAN&amp;&amp;ppctype=google_emea_gene_sd-wan&amp;ppcoffr=ebook2021trends&amp;SF=7011T000001CBgz&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=10100217960&amp;utm_content=101615452695&amp;utm_term=%2Bsoftware%20%2Bdefined%20%2Bwan&amp;_bt=494903272778&amp;_bm=b&amp;_bn=g&amp;gclid=Cj0KCQjw-4SLBhCVARIsACrhWLUxCySXkqYVglV8NyzJ_TzbsvL4ITXtG9rNSClvrjMvhP5_wIcLnRQaAjSCEALw_wcB<br>https:\/\/www.telia.se\/foretag\/losningar\/produkter-tjanster\/sd-wan?utm_source=GOOGLE&amp;utm_medium=cpc&amp;utm_campaign=(G)+-+B2B+-+SD+WAN&amp;utm_content=SD+WAN&amp;utm_term=SD+WAN&amp;gclid=Cj0KCQjw-4SLBhCVARIsACrhWLUUsJrYMLD_MxzzXl-lfKweGBbU34pn6n5qQhCgt-_FFa_3p1HIeUoaAlDmEALw_wcB&amp;gclsrc=aw.ds<br>https:\/\/www.cisco.com\/c\/en\/us\/solutions\/collateral\/enterprise-networks\/sd-wan\/nb-06-sd-wan-ds-cte-en.html#:~:text=The%20Cisco%20%C2%AE%20SD%2DWAN,data%20center%20and%20multicloud%20applications.&amp;text=Cisco%20SD%2DWAN%20builds%20on,access%20service%20edge%20(SASE).<br>https:\/\/www.cisco.com\/c\/en\/us\/solutions\/enterprise-networks\/sd-wan\/index.html<br><a href=\"https:\/\/firewallforce.se\/vara-losningar\/\">V\u00e5ra l\u00f6sningar | N\u00e4tverksinfrastruktur, S\u00e4kerhet, Tr\u00e5dl\u00f6s, SD-WAN (firewallforce.se)<\/a><br><a href=\"https:\/\/firewallforce.se\/vara-tjanster\/\">V\u00e5ra Tj\u00e4nster | IT-anskaffning, teknisk r\u00e5dgivning och konfigurationstj\u00e4nst (firewallforce.se)<\/a><br><a href=\"https:\/\/firewallforce.se\/eshop\/?filter_brands=cisco-systems&amp;query_type_brands=or\">FirewallForce eShop | K\u00f6pa IT Produkter, Routrar, Switchar, Servrar.<\/a><br><a href=\"https:\/\/firewallforce.se\/product\/cisco-c9300-24t-a\/\">Cisco C9300-24T-A | Catalyst 9300 &#8211; Network Advantage Switch | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag (firewallforce.se)<\/a><br><a href=\"https:\/\/firewallforce.se\/product\/cisco-c9300l-48p-4g-e\/\">Cisco C9300L-48P-4G-E | Catalyst 9300L &#8211; Network Essentials Switch | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag (firewallforce.se)<\/a><br><a href=\"https:\/\/firewallforce.se\/product\/cisco-systems-ws-c3560cx-12pd-s\/\">Cisco WS-C3560CX-12PD-S | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag (firewallforce.se<\/a><\/figcaption><\/figure>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Cisco SD-WAN. Skydda anv\u00e4ndarnas \u00e5tkomst till applikationer var som helst och n\u00e4r som helst.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 491651,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [
+            1800,
+            1797,
+            1796,
+            1798,
+            1802,
+            1801,
+            451,
+            1280,
+            1799
+        ],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>5 anv\u00e4ndningsfall f\u00f6r Cisco S\u00e4ker SD-WAN | Sveriges IT-N\u00e4tverks Konsult<\/title>\n<meta name=\"description\" content=\"5 anv\u00e4ndningsfall f\u00f6r Cisco SD-WAN - S\u00e4ker automatiserad WAN. Skydda anv\u00e4ndarnas \u00e5tkomst till applikationer var som helst och n\u00e4r som helst.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"5 anv\u00e4ndningsfall f\u00f6r Cisco S\u00e4ker SD-WAN | Sveriges IT-N\u00e4tverks Konsult\" \/>\n<meta property=\"og:description\" content=\"5 anv\u00e4ndningsfall f\u00f6r Cisco SD-WAN - S\u00e4ker automatiserad WAN. Skydda anv\u00e4ndarnas \u00e5tkomst till applikationer var som helst och n\u00e4r som helst.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2021-10-09T18:01:14+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-10-10T13:05:36+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/sdwan-ad.png\" \/>\n\t<meta property=\"og:image:width\" content=\"545\" \/>\n\t<meta property=\"og:image:height\" content=\"416\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/sdwan-ad.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/sdwan-ad.png\",\"width\":545,\"height\":416},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/\",\"name\":\"5 anv\\u00e4ndningsfall f\\u00f6r Cisco S\\u00e4ker SD-WAN | Sveriges IT-N\\u00e4tverks Konsult\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#primaryimage\"},\"datePublished\":\"2021-10-09T18:01:14+00:00\",\"dateModified\":\"2021-10-10T13:05:36+00:00\",\"description\":\"5 anv\\u00e4ndningsfall f\\u00f6r Cisco SD-WAN - S\\u00e4ker automatiserad WAN. Skydda anv\\u00e4ndarnas \\u00e5tkomst till applikationer var som helst och n\\u00e4r som helst.\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"5 anv\\u00e4ndningsfall f\\u00f6r Cisco S\\u00e4ker SD-WAN\",\"datePublished\":\"2021-10-09T18:01:14+00:00\",\"dateModified\":\"2021-10-10T13:05:36+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#webpage\"},\"wordCount\":318,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/10\/sdwan-ad.png\",\"keywords\":[\"cisco meraki\",\"cisco sd-wan\",\"cisco sdwan\",\"cisco viptela\",\"fortinet sdwan\",\"meraki sdwan\",\"SD-WAN\",\"sdwan\",\"viptela\"],\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/5-anvandningsfall-for-cisco-saker-sd-wan\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/491495"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=491495"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/491495\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/491651"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=491495"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=491495"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=491495"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 359119,
+        "date": "2021-07-22T15:57:17",
+        "date_gmt": "2021-07-22T13:57:17",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=359119"
+        },
+        "modified": "2021-07-22T16:07:53",
+        "modified_gmt": "2021-07-22T14:07:53",
+        "slug": "hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/",
+        "title": {
+            "rendered": "Hur Rittal AX kompakta kapsling p\u00e5skyndar saker och ting."
+        },
+        "content": {
+            "rendered": "\n<h2><span class=\"has-inline-color has-vivid-red-color\">Kan kapslingar bearbetas och monteras ut \u00e4nnu snabbare?<\/span><\/h2>\n\n\n\n<p><span style=\"color: #d3222a;\"><strong> &gt;&gt; OFF TO A FLYING START!<\/strong><\/span>  <\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p><strong>THE DEMAND FOR RACKS IS ROCKETING<\/strong><\/p><cite>IT-cheferna inser att de st\u00e4ndigt kommer att st\u00e4llas inf\u00f6r nya, \u00e4nnu ok\u00e4nda utmaningar i framtiden. De m\u00e5ste kunna reagera snabbare \u00e4n n\u00e5gonsin och skapa datacenter som erbjuder en h\u00f6g grad av flexibilitet f\u00f6r framtiden. D\u00e4rf\u00f6r har Rittal utvecklat den nya infrastrukturplattformen RiMatrix Next Generation. &#8220;Under utvecklingsprocessen t\u00e4nkte vi fram\u00e5t och \u00f6verv\u00e4gde f\u00f6rm\u00e5gan att anpassa oss till olika och st\u00e4ndigt f\u00f6r\u00e4nderliga krav&#8221;, s\u00e4ger<br><strong>Uwe Scharf, vd | Aff\u00e4rsenheter och marknadsf\u00f6ring p\u00e5 Rittal.<\/strong><\/cite><\/blockquote>\n\n\n\n<p>En ny arbetsdag gryr p\u00e5 Meurer-etechnik i Tyska Westerwald-regionen. I avsnittet om inkommande varor tar en ung man kl\u00e4dd i svart t-shirt med f\u00f6retagets logotyp p\u00e5 framsidan och \u00e4rmen leverans av en pall med \u00e5tta AX kompakta kapslingar fr\u00e5n Rittal. Produktionschef Steven Lauer v\u00e4ntar redan p\u00e5 deras ankomst. Om bara en vecka kommer de UL-kompatibla kapslingarna att levereras till en tillverkare av specialmaskiner baserade i K\u00f6lnomr\u00e5det. Lauer, en smalbyggd man i 20-\u00e5rs\u00e5ldern, l\u00e4ngtar efter att f\u00e5 se hur de nya AX-kapslingarna skiljer sig fr\u00e5n f\u00f6reg\u00e5ngaren AE.<\/p>\n\n\n\n<p>&#8220;Nu b\u00f6rjar vi&#8221;, s\u00e4ger han. Lauer har tilldelat uppgiften att montera ut AX-kapslingarna till tre av anl\u00e4ggningens elektriker. En av dem kl\u00e4mmer redan fast den f\u00f6rsta kapslingsd\u00f6rren i Perforex CNC-bearbetningscentret. Monteringsplattorna st\u00e5r p\u00e5 tur. Framstegen g\u00e5r snabbt, eftersom d\u00f6rrarna och monteringsplattorna helt enkelt l\u00e4ggs till i leveranspaketet och personalen inte har besv\u00e4ret med att f\u00f6rst lossa dem fr\u00e5n h\u00f6ljet, vilket normalt \u00e4r fallet. Med hj\u00e4lp av den digitala tvillingens tillverkningsdata fr\u00e5n Eplan Pro Panel sk\u00e4r maskinen alla n\u00f6dv\u00e4ndiga h\u00e5l p\u00e5 dubbel snabb tid. &#8221; Den delen \u00e4r den roligaste&#8221;, s\u00e4ger Lauer, som st\u00e5r avslappnat vid maskinens f\u00f6rarterminal.<\/p>\n\n\n\n<div class=\"wp-block-columns\">\n<div class=\"wp-block-column\" style=\"flex-basis:100%\">\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\" style=\"grid-template-columns:39% auto\"><figure class=\"wp-block-media-text__media\"><img width=\"440\" height=\"304\" src=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/07\/image-3.png\" alt=\"\" class=\"wp-image-363698 size-full\" srcset=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/07\/image-3.png 440w, https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/07\/image-3-300x207.png 300w\" sizes=\"(max-width: 440px) 100vw, 440px\" \/><\/figure><div class=\"wp-block-media-text__content\">\n<p class=\"has-text-align-center\">\u201cThe additional space<br>on the gland plate is a<br>huge advantage and<br>the AX is also far more<br>flexible when it comes<br>to the interior fit-out.\u201d<\/p>\n<\/div><\/div>\n<\/div>\n<\/div>\n\n\n\n<p><span class=\"has-inline-color has-vivid-red-color\"><strong>MORE CABLE SPACE<\/strong><\/span><br>Det \u00e4r nu dags f\u00f6r f\u00f6rmontering, konfiguration och ledningar. En helautomatisk tr\u00e5dbearbetningsmaskin har redan tillverkat n\u00f6dv\u00e4ndiga kabeln\u00e4t \u2013 \u00e4ven med hj\u00e4lp av data fr\u00e5n konstruktionstekniska avdelningen. P\u00e5 s\u00e5 s\u00e4tt implementerar Meurer-etechnik gradvis &#8220;kapslingstillverkning 4.0&#8221;. Lauer anger ett omr\u00e5de i den bakre delen av den ljusa fabriksbyggnaden till tre anst\u00e4llda, som lyfter de kompakta kapslingarna p\u00e5 sm\u00e5 metalltrestles. Bredvid var och en av anl\u00e4ggningen elektriker finns en vagn med verktyg och ett antal l\u00e5dor som inneh\u00e5ller elektroniska komponenter. Kapslingarna ligger nu p\u00e5 rygg med d\u00f6rrarna monterade. Bredvid dem finns monteringsplattorna, till vilka m\u00e4nnen n\u00e4sta f\u00e4ster monteringsskenor och kabelkanaler. Kontaktorer, terminaler, v\u00e4xelriktare och liknande komponenter installeras sedan. Under denna konfigurationsprocess konsulterar elektrikerna regelbundet sina surfplattor f\u00f6r att j\u00e4mf\u00f6ra sitt arbete med 3D-modellen. D\u00e4refter kommer ledningarna. Sist men inte minst monteras den helt tr\u00e5dbundna monteringsplattan i kapslingarna.<\/p>\n\n\n\n<p>Lauer har varit p\u00e5 Meurer-etechnik i tio \u00e5r. N\u00e4r han var l\u00e4rling var han fortfarande tvungen att l\u00e4ra sig att placera varje h\u00e5l manuellt. \u2013 Tekniken har kommit l\u00e5ngt sedan dess, s\u00e4ger han. innan han st\u00e4llde f\u00f6ljande fr\u00e5ga till sina kollegor: &#8220;S\u00e5, vad \u00e4r annorlunda med AX?&#8221; Svaret: &#8220;Det k\u00e4nns som att det finns mer plats p\u00e5 k\u00f6rtelplattan.&#8221; Och det finns faktiskt 30 procent mer utrymme f\u00f6r att s\u00e4tta in kablar. &#8221; Det \u00e4r en enorm f\u00f6rdel&#8221;, insisterar Lauer, eftersom digitaliseringen kontinuerligt \u00f6kar antalet komponenter i h\u00f6ljet och d\u00e4rmed ocks\u00e5 antalet kablar som beh\u00f6ver dras in via k\u00f6rtelplattan. Han tittar ocks\u00e5 n\u00e4rmare p\u00e5 den kompakta kapslingens innerv\u00e4gg. &#8221; Det brukade alltid vara problem med inredningen, eftersom det inte fanns tillr\u00e4ckligt med alternativ f\u00f6r att passa djupvistelserna. Det har nu f\u00f6r\u00e4ndrats, konstaterar han.<\/p>\n\n\n\n<p>Att kunna installera skenorna p\u00e5 olika h\u00f6jder g\u00f6r processen att utforma niv\u00e5erna mer flexibel. Lauer pekar p\u00e5 en gr\u00e5 l\u00e5da p\u00e5 en av vagnarna. Det finns nu bara tre kabeln\u00e4t kvar i den. \u2013 N\u00e4r l\u00e5dan med kablarna b\u00f6rjar se tom ut vet jag att vi \u00e4r p\u00e5 slutstr\u00e4ckan, s\u00e4ger han. Det fanns inga fel under provningen, och kapslingarna f\u00f6r den speciella maskintillverkaren var till och med klara en halv dag tidigare \u00e4n planerat. &#8220;Du \u00e4r glad om det inte finns n\u00e5gon risk f\u00f6r att leveransfristen inte g\u00e5r att h\u00e5lla och kvaliteten \u00e4r som den ska&#8221;, s\u00e4ger en glad Lauer.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 363707,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [
+            1214,
+            1217,
+            1216,
+            1215,
+            1058,
+            454,
+            1220,
+            1219,
+            1212,
+            1211,
+            1210,
+            1213
+        ],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Hur Rittal AX kompakta kapsling p\u00e5skyndar saker och ting. Rittal Sverige<\/title>\n<meta name=\"description\" content=\"IT-cheferna inser att de st\u00e4ndigt kommer att st\u00e4llas inf\u00f6r nya, \u00e4nnu ok\u00e4nda utmaningar i framtiden. De m\u00e5ste kunna reagera snabbare \u00e4n n\u00e5gonsin och skapa datacenter som erbjuder en h\u00f6g grad av flexibilitet f\u00f6r framtiden.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A Glimpse On Firewall High Availability Design with Cisco\" \/>\n<meta property=\"og:description\" content=\"IT-cheferna inser att de st\u00e4ndigt kommer att st\u00e4llas inf\u00f6r nya, \u00e4nnu ok\u00e4nda utmaningar i framtiden. De m\u00e5ste kunna reagera snabbare \u00e4n n\u00e5gonsin och skapa datacenter som erbjuder en h\u00f6g grad av flexibilitet f\u00f6r framtiden.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2021-07-22T13:57:17+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-07-22T14:07:53+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/united-fha.png\" \/>\n\t<meta property=\"og:image:width\" content=\"1041\" \/>\n\t<meta property=\"og:image:height\" content=\"577\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/united-fha.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/united-fha.png\",\"width\":1041,\"height\":577},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/\",\"name\":\"Hur Rittal AX kompakta kapsling p\\u00e5skyndar saker och ting. Rittal Sverige\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#primaryimage\"},\"datePublished\":\"2021-07-22T13:57:17+00:00\",\"dateModified\":\"2021-07-22T14:07:53+00:00\",\"description\":\"IT-cheferna inser att de st\\u00e4ndigt kommer att st\\u00e4llas inf\\u00f6r nya, \\u00e4nnu ok\\u00e4nda utmaningar i framtiden. De m\\u00e5ste kunna reagera snabbare \\u00e4n n\\u00e5gonsin och skapa datacenter som erbjuder en h\\u00f6g grad av flexibilitet f\\u00f6r framtiden.\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"Hur Rittal AX kompakta kapsling p\\u00e5skyndar saker och ting.\",\"datePublished\":\"2021-07-22T13:57:17+00:00\",\"dateModified\":\"2021-07-22T14:07:53+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#webpage\"},\"wordCount\":783,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/07\/svsd.jpg\",\"keywords\":[\"cabinet\",\"cooling\",\"data center\",\"datacentre\",\"H\\u00f6g tillg\\u00e4nglighet arkitektur\",\"n\\u00e4tverksarkitekturer\",\"network\",\"noc\",\"rack\",\"racks\",\"rittal\",\"server\"],\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/hur-rittal-ax-kompakta-kapsling-paskyndar-saker-och-ting\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/359119"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=359119"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/359119\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/363707"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=359119"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=359119"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=359119"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 357747,
+        "date": "2021-02-09T17:27:35",
+        "date_gmt": "2021-02-09T15:27:35",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=357747"
+        },
+        "modified": "2021-03-18T11:05:21",
+        "modified_gmt": "2021-03-18T09:05:21",
+        "slug": "brandvagg-hog-tillganglighet-arkitektur-med-cisco",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/",
+        "title": {
+            "rendered": "Firewall High Availability Architecture with Cisco"
+        },
+        "content": {
+            "rendered": "<h3>Firewall High Availability Architecture with Cisco<\/h3>\n<p><span style=\"color: #d3222a;\"><strong> &gt;&gt; Brandv\u00e4gg h\u00f6g tillg\u00e4nglighet arkitektur med Cisco<\/strong><\/span><\/p>\n<p>In many cases where businesses needs resiliency and high availability, network engineers should design firewall architecture with some kind of high availability. Although most firewall designs include some form of high availability. Redundancy is very important when the firewall is a central point of failure, such as the perimeter gateway device.<\/p>\n<p>We can achieve the high availability with different methods. It could be set up by adding redundant devices in network using two or more appliances that have synchronized configurations or virtual depending on the vendor\u2019s capabilities. Typically, failover includes monitoring or the active or primary firewall using a heartbeat counter. When a delay beyond the configured threshold is seen by a secondary firewall, a failover occurs.<\/p>\n<p>Let\u2019s develop the understanding. For example, in Cisco ASA \/ Firepower firewalls, the requirement for high availability is having two identical ASA\u2019s or Firepower devices connected through a dedicated failover link and optionally, a state link. The ASA \/ Firepower supports two failover modes: active\/active failover and active\/standby failover. Active\/standby has one ASA \/ Firepower act as an active unit, while the standby unit does not actively pass traffic. When a failover occurs, the active unit fails over to a standby unit. Active\/standby supports single-context and multi-context mode configurations. Active\/active failover enables both Cisco firewalls (ASA \/ Firepower) to pass network traffic. This can be enabled only when an ASA is configured in multi-context mode by dividing the security contexts on the ASA into two failover groups. A failover group is a logical group of one or more security contexts.<br \/>\nWhen a failover occurs, it happens at the failover group level.<\/p>\n<p>A case study of an enterprise data center having a firewall high availability architecture will be share in our next post so readers can understand better how we can achieve an optimal security performance, resiliency and redundancy in DC.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 357961,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [
+            1057,
+            1056,
+            452,
+            1054,
+            1053,
+            1052,
+            1051,
+            1055,
+            1058,
+            454
+        ],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Firewall High Availability Architecture with Cisco | Designing Network Security Services<\/title>\n<meta name=\"description\" content=\"A pre-post which highlights the importance of firewall high availability in enterprise network data center. Designing optimal security service architecture with Cisco.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A Glimpse On Firewall High Availability Design with Cisco\" \/>\n<meta property=\"og:description\" content=\"A pre-post which highlights the importance of firewall high availability in enterprise network data center. Designing optimal security service architecture with Cisco.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2021-02-09T15:27:35+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-03-18T09:05:21+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/united-fha.png\" \/>\n\t<meta property=\"og:image:width\" content=\"1041\" \/>\n\t<meta property=\"og:image:height\" content=\"577\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/united-fha.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/united-fha.png\",\"width\":1041,\"height\":577},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/\",\"name\":\"Firewall High Availability Architecture with Cisco | Designing Network Security Services\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#primaryimage\"},\"datePublished\":\"2021-02-09T15:27:35+00:00\",\"dateModified\":\"2021-03-18T09:05:21+00:00\",\"description\":\"A pre-post which highlights the importance of firewall high availability in enterprise network data center. Designing optimal security service architecture with Cisco.\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"Firewall High Availability Architecture with Cisco\",\"datePublished\":\"2021-02-09T15:27:35+00:00\",\"dateModified\":\"2021-03-18T09:05:21+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#webpage\"},\"wordCount\":334,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2021\/02\/2f2ef10d-cisco-securex-firewall-architecture.png\",\"keywords\":[\"Brandv\\u00e4gg\",\"Brandv\\u00e4gg h\\u00f6g tillg\\u00e4nglighet\",\"Cisco\",\"Cisco ASA\",\"Cisco firepower\",\"Cisco firewall\",\"firepower\",\"high availability\",\"H\\u00f6g tillg\\u00e4nglighet arkitektur\",\"n\\u00e4tverksarkitekturer\"],\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/brandvagg-hog-tillganglighet-arkitektur-med-cisco\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/357747"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=357747"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/357747\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/357961"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=357747"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=357747"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=357747"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 26694,
+        "date": "2020-10-27T03:08:20",
+        "date_gmt": "2020-10-27T01:08:20",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=26694"
+        },
+        "modified": "2020-10-27T03:17:23",
+        "modified_gmt": "2020-10-27T01:17:23",
+        "slug": "tradlos-anslutning-wifi-6",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/",
+        "title": {
+            "rendered": "Upplev en s\u00f6ml\u00f6s intelligent tr\u00e5dl\u00f6s anslutning WiFi-6 (802.11ax) standard"
+        },
+        "content": {
+            "rendered": "<h3>Upplev en s\u00f6ml\u00f6s intelligent tr\u00e5dl\u00f6s anslutning WiFi-6<\/h3>\n<p><span style=\"color: #d3222a;\"><strong>1- Inledning<\/strong><\/span><\/p>\n<p><span style=\"color: #d3222a;\"><strong>1.1 &#8211; Vilka problem l\u00f6ser WiFi 6?<\/strong><\/span><\/p>\n<p>Traditionell hela kanal och bandbredd \u00e4r auktoriserad till en enhet som g\u00f6r buffring i t\u00e4tbefolkade omr\u00e5den. Om du lider av buffring, se till att din router inte \u00e4r orsaken! WiFi 6 (802.11ax) \u00e4r den senaste generationens WiFi-teknik. Det kommer att ge dig snabbare WiFi-hastigheter med tillf\u00f6rlitliga anslutningar, s\u00e5 att du kan njuta av buffertfri streaming, snabbare nedladdningar och l\u00e4gga till fler smarta hemenheter utan att sakta ner din internetupplevelse.<\/p>\n<p>J\u00e4mf\u00f6rt med WiFi 5, WiFi 6 n\u00e4tverksbandbredd \u00f6kas med 4 g\u00e5nger, och antalet samtidiga anv\u00e4ndare \u00f6kas med 4 g\u00e5nger. En tr\u00e5dl\u00f6s \u00e5tkomstpunkt (AP) kan hantera upp till 12 WiFi-str\u00f6mmar samtidigt.<\/p>\n<p>I tidigare WiFi-protokoll kunde denna tr\u00e5dl\u00f6sa \u00e5tkomstpunkt (AP) bara &#8220;session&#8221; med en enhet i taget. WiFi 6 ger dock tr\u00e5dl\u00f6sa \u00e5tkomstpunkter (APs) m\u00f6jlighet att skicka och ta emot data fr\u00e5n flera enheter samtidigt.<\/p>\n<p><a href=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero.jpg\"><img class=\"alignnone wp-image-26699 size-full\" src=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero.jpg\" alt=\"\" width=\"1440\" height=\"500\" srcset=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero.jpg 1440w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero-300x104.jpg 300w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero-600x208.jpg 600w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero-1024x356.jpg 1024w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/5G-WiFi-6-hero-768x267.jpg 768w\" sizes=\"(max-width: 1440px) 100vw, 1440px\" \/><\/a><\/p>\n<p><span style=\"color: #d3222a;\"><strong>1.2 Hur man uppn\u00e5r bak\u00e5tkompatibilitet<\/strong><\/span><\/p>\n<p>WiFi 6 \u00e4r bak\u00e5tkompatibel. OFDMA AP kan kommunicera med g\u00e4ng enheter p\u00e5 en g\u00e5ng genom att dela upp kanalen i subkanaler enligt bandbreddskrav. 802.11 Radioapparater med 802.11ax kan kommunicera med andra 802.11ax radioapparater med HJ\u00c4LP AV OFDM eller OFDMA. N\u00e4r endast 802.11ax OFDMA sessioner intr\u00e4ffar, KOMMER RTS \/ CTS (Beg\u00e4ran att skicka \/ Rensa till Skicka) mekanismer anv\u00e4ndas f\u00f6r att f\u00f6rdr\u00f6ja traditionella \u00f6verf\u00f6ringar.<\/p>\n<p><span style=\"color: #d3222a;\"><strong>1.2.1 OFDMA<\/strong><\/span><\/p>\n<p>OFDMA: Orthogonal frekvensuppdelningsfaldigt ta fram. Den delar upp den tr\u00e5dl\u00f6sa kanalen i flera sub-kanaler (sub-b\u00e4rare) f\u00f6r att bilda frekvens resursblock. Anv\u00e4ndardata f\u00f6rs p\u00e5 varje resursblock, i st\u00e4llet f\u00f6r att uppta hela kanalen. Flera anv\u00e4ndare s\u00e4nder samtidigt parallellt under tidsperioden.<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><a href=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/ofdma.png\"><img class=\"alignnone wp-image-26703 size-full\" src=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/ofdma.png\" alt=\"\" width=\"794\" height=\"391\" srcset=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/ofdma.png 794w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/ofdma-300x148.png 300w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/ofdma-600x295.png 600w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/ofdma-768x378.png 768w\" sizes=\"(max-width: 794px) 100vw, 794px\" \/><\/a><\/p>\n<p><span style=\"color: #d3222a;\"><strong>1.3 L\u00e4gger 802.11ax till st\u00f6d f\u00f6r 2.4 Ghz-spektrumet<\/strong><\/span><\/p>\n<p>WiFi 6 \u00e4r dual-band, och dess f\u00f6reg\u00e5ngare var bara 5Ghz spektrum. Vissa leverant\u00f6rer f\u00f6rs\u00f6kte genomf\u00f6ra WiFi 5 p\u00e5 2.4Ghz, men standarden endast godk\u00e4nda 5Ghz obegr\u00e4nsad makt.<\/p>\n<p>Vi tror att 2.4Ghz drivs av ekonomi. Oavsett om det \u00e4r gammalt eller uppdaterat, st\u00f6der den billigare 2.4Ghz. \u00c4ven om 2.4 Ghz \u00e4r mer mottagliga f\u00f6r st\u00f6rningar, ger det b\u00e4ttre mottagning. Det vill s\u00e4ga, det kan &#8220;ta emot&#8221; p\u00e5 st\u00f6rre avst\u00e5nd.<\/p>\n<p>Tack vare nya f\u00f6rb\u00e4ttringar av WiFi 6, s\u00e5som BSS f\u00e4rgteknik, \u00e4ven &#8220;bara 2.4Ghz&#8221; enheter kommer att gynnas. IEEE 802.11 ax-tekniken \u00e4r 6: e generationen av WiFi och d\u00e4rmed \u00e4r det k\u00e4nt som Wifi-6. P\u00e5 grund av sin h\u00f6ga effektivitet prestanda, \u00e4r det ocks\u00e5 k\u00e4nd som HEW (High Efficiency WLAN)<\/p>\n<p>802.11 ax erbjuder b\u00e4ttre effektivitet, n\u00e4tverkskapacitet, prestanda och anv\u00e4ndarupplevelse vid reducerad latens.<\/p>\n<p><a href=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/802.11ax-Features-1024x561-1.png\"><img class=\"alignnone wp-image-26707\" src=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/802.11ax-Features-1024x561-1.png\" alt=\"\" width=\"927\" height=\"508\" srcset=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/802.11ax-Features-1024x561-1.png 1024w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/802.11ax-Features-1024x561-1-300x164.png 300w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/802.11ax-Features-1024x561-1-600x329.png 600w, https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/802.11ax-Features-1024x561-1-768x421.png 768w\" sizes=\"(max-width: 927px) 100vw, 927px\" \/><\/a><\/p>\n<p><strong>1.4 F\u00f6rdelar eller f\u00f6rdelar med WiFi 6<\/strong><\/p>\n<ul>\n<li>Det har utvecklats f\u00f6r att leverera 40% h\u00f6g topp datahastigheter med hj\u00e4lp av enda klient enhet. Genomsnittligt datafl\u00f6de per anv\u00e4ndare f\u00f6rb\u00e4ttras med minst 4 g\u00e5nger i t\u00e4ta milj\u00f6er.<\/li>\n<li>Det erbjuder fyra g\u00e5nger \u00f6kning av n\u00e4tverkets effektivitet j\u00e4mf\u00f6rt med 802.11ac.<\/li>\n<li>Den \u00e4r bak\u00e5tkompatibel med 802.11n- och 802.11ac-enheter.<\/li>\n<li>Batteritiden f\u00f6r 802.11 ax-klientenheter har f\u00f6rb\u00e4ttrats p\u00e5 grund av inf\u00f6randet av ny funktion som kallas TWT (Target Wake Time). TWT-funktionen g\u00f6r att klientenheter kan sova och vakna vid schemalagda tider.<\/li>\n<li>Begr\u00e4nsning av co-kanalst\u00f6rning \u00e4r m\u00f6jlig med hj\u00e4lp av BSS-f\u00e4rgkoder. Dessa koder hj\u00e4lper 11ax stationer att identifiera \u00f6verf\u00f6ring fr\u00e5n ett annat n\u00e4tverk.<\/li>\n<li>Den erbjuder robust h\u00f6geffektiv signalering f\u00f6r b\u00e4ttre drift vid betydligt l\u00e4gre RSSI.<\/li>\n<li>Den presterar bra b\u00e5de inom- och utomhusmilj\u00f6erna. F\u00f6r att uppn\u00e5 samma, anv\u00e4nder den l\u00e4ngre symbol varaktighet och cykliska prefix (CP) i utomhusmilj\u00f6 d\u00e4r som den anv\u00e4nder kortare CP i inomhusmilj\u00f6.<\/li>\n<li>Den anv\u00e4nder OFDMA och d\u00e4rmed flera anv\u00e4ndare kan s\u00e4nda p\u00e5 samma. DEN OFDMA baserade schemal\u00e4ggning hj\u00e4lper till att minska overhead och latens b\u00e5da.<\/li>\n<\/ul>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 26714,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [
+            723,
+            726,
+            452,
+            725,
+            454,
+            451,
+            724,
+            722
+        ],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Upplev en s\u00f6ml\u00f6s intelligent tr\u00e5dl\u00f6s anslutning WiFi-6 (802.11ax) standard | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Upplev en s\u00f6ml\u00f6s intelligent tr\u00e5dl\u00f6s anslutning WiFi-6 (802.11ax) standard | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag\" \/>\n<meta property=\"og:description\" content=\"F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2020-10-27T01:08:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-10-27T01:17:23+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/AdobeStock_366050956-min-scaled.jpeg\" \/>\n\t<meta property=\"og:image:width\" content=\"2560\" \/>\n\t<meta property=\"og:image:height\" content=\"1707\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/AdobeStock_366050956-min-scaled.jpeg\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/AdobeStock_366050956-min-scaled.jpeg\",\"width\":2560,\"height\":1707},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/\",\"name\":\"Upplev en s\\u00f6ml\\u00f6s intelligent tr\\u00e5dl\\u00f6s anslutning WiFi-6 (802.11ax) standard | Sveriges IT-N\\u00e4tverks \\u00c5terf\\u00f6rs\\u00e4ljare och Konsultf\\u00f6retag\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#primaryimage\"},\"datePublished\":\"2020-10-27T01:08:20+00:00\",\"dateModified\":\"2020-10-27T01:17:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"Upplev en s\\u00f6ml\\u00f6s intelligent tr\\u00e5dl\\u00f6s anslutning WiFi-6 (802.11ax) standard\",\"datePublished\":\"2020-10-27T01:08:20+00:00\",\"dateModified\":\"2020-10-27T01:17:23+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#webpage\"},\"wordCount\":675,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/10\/AdobeStock_366050956-min-scaled.jpeg\",\"keywords\":[\"802.11ax\",\"Aruba Wifi6\",\"Cisco\",\"cisco MR46\",\"n\\u00e4tverksarkitekturer\",\"SD-WAN\",\"wifi-6\",\"wifi6\"],\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/tradlos-anslutning-wifi-6\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/26694"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=26694"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/26694\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/26714"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=26694"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=26694"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=26694"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 2558,
+        "date": "2020-09-16T14:09:11",
+        "date_gmt": "2020-09-16T12:09:11",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=2558"
+        },
+        "modified": "2020-09-16T14:10:09",
+        "modified_gmt": "2020-09-16T12:10:09",
+        "slug": "natverkstrender-for-den-digitala-tidsaldern-age",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/",
+        "title": {
+            "rendered": "N\u00e4tverkstrender f\u00f6r den digitala tids\u00e5ldern"
+        },
+        "content": {
+            "rendered": "<p>F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk. Idag ser vi avancerade och skalbara designmetoder inom industrin f\u00f6r att g\u00f6ra n\u00e4tverk autonoma och elastiska f\u00f6r att tillgodose kraven p\u00e5 globalisering och IFEA (internet f\u00f6r alla). Automatisering blir en del av varje digital verksamhet och f\u00f6retag runt om i v\u00e4rlden kr\u00e4ver denna digitala omvandling. Med s\u00e5 m\u00e5nga saker runt omkring oss som moln, IOT, Ai, tr\u00e5dl\u00f6s och mobilitet, webbappar och cybers\u00e4kerhet blir spektrumet av internet och relaterad teknik enormt. Och med denna stora komplexitet blir ocks\u00e5 m\u00e4nsklig f\u00f6rm\u00e5ga att hantera dagens infrastruktur sv\u00e5r och d\u00e4rf\u00f6r upplever vi sv\u00e5righeter med att hitta skickliga tekniker.<\/p>\n<p>En ny v\u00e5g som vi ser i dagens n\u00e4tverk \u00e4r ganska ny f\u00f6r m\u00e5nga f\u00f6retagare. Enligt en rapport fr\u00e5n 2020 som publicerats av Cisco \u00e4r n\u00e5gra nyckeltal som nedan.<\/p>\n<ul>\n<li>700 miljoner Hosting beh\u00e5llare kommer att visas senast 2021<\/li>\n<li>50% av arbetsbelastningen kommer att inr\u00e4ttas utanf\u00f6r f\u00f6retaget DC senast 2021<\/li>\n<li>Industriell IOT-belastning av enheter kommer att r\u00f6ra 14B-siffran 2022<\/li>\n<li>Mobiltrafik kommer ocks\u00e5 att uppleva en enorm tillv\u00e4xt med 42% under kommande 2 \u00e5r<\/li>\n<li>Med alla dessa otroliga siffror kommer \u00e4ven cybers\u00e4kerhetshot att \u00f6ka med 53%<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<ul>\n<li>Vi b\u00f6r f\u00f6lja n\u00e5gra riktlinjer och strategier f\u00f6r att \u00f6vervinna dessa komplikationer. Som n\u00e4tverkstekniker b\u00f6r du g\u00f6ra strategier och planer f\u00f6r att utf\u00f6ra fel. Ett steg-f\u00f6r-steg-strukturdiagram \u00e4r ett bra exempel f\u00f6r att bygga upp exekveringsplaner och mallar f\u00f6r vart och ett av ditt n\u00e4tverks dom\u00e4nomr\u00e5de f\u00f6r ditt team, s\u00e5 i h\u00e4ndelse av en d\u00e5lig situation eller incident m\u00e5ste man veta vad man ska g\u00f6ra som s\u00e5 sm\u00e5ningom blir ett lyckat tillv\u00e4gag\u00e5ngss\u00e4tt.<\/li>\n<li>Uppgradering \u00e4r ocks\u00e5 en annan nyckelfaktor som vi b\u00f6r t\u00e4nka p\u00e5 n\u00e4r vi utformar. Du kan inte f\u00f6rv\u00e4nta dig att en f\u00f6r\u00e5ldrad EOL\/EOS-produkt ska leverera det som ditt f\u00f6retag faktiskt beh\u00f6ver.<\/li>\n<li>Med denna f\u00f6r\u00e4ndringscykel m\u00e5ste ditt tekniska team ha de kunskaper och den tekniska kompetens som ger dem ett \u00f6kat sj\u00e4lvf\u00f6rtroende samtidigt som de hanterar avancerade n\u00e4tverksarkitekturer.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Fr\u00e5n autonoma till styrenhetsbaserade n\u00e4tverk har var och en sina egna upp-och nedg\u00e5ngar. Men som i dagens avsiktsbaserade n\u00e4tverk f\u00e5r Ai-baserade programvarustyrenheter stationerade n\u00e4tverk uppm\u00e4rksamhet. Cisco f\u00f6rutsp\u00e5r att \u00e5r 2025 kommer organisationer att g\u00e5 \u00f6ver till avsiktsbaserade n\u00e4tverk i n\u00e4stan alla n\u00e4tverksdom\u00e4ner. Dess inverkan visar oss redan n\u00e5gra stora uppt\u00e4ckter till f\u00f6ljd av SDN och SD-WAN. V\u00e5ra datacenter blir mycket intelligentare efter nya protokoll och strukturer som overlay\/underlagsn\u00e4tverk.\u00a0 Med denna intelligenta mjukvarubaserade automatisering kommer n\u00e4tverk att fungera p\u00e5 ett mycket systematiskt s\u00e4tt genom att ge oss fullst\u00e4ndig insyn i alla lager, enkel eskalering och optimering. Dessa f\u00f6rdelar kommer naturligtvis att hj\u00e4lpa oss p\u00e5 ett mycket kraftfullt s\u00e4tt att f\u00f6rst\u00e5 b\u00e4ttre och kommer att \u00f6ppna fler s\u00e4tt att ut\u00f6ka v\u00e5ra vingar.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 2419,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [
+            452,
+            453,
+            454,
+            450,
+            451
+        ],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>N\u00e4tverkstrender f\u00f6r den digitala tids\u00e5ldern | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"N\u00e4tverkstrender f\u00f6r den digitala tids\u00e5ldern | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag\" \/>\n<meta property=\"og:description\" content=\"F\u00f6retagsn\u00e4tverk tar en sv\u00e4ng och omformar sig mot ett mer avancerat och s\u00e4kert ramverk.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2020-09-16T12:09:11+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-09-16T12:10:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\" \/>\n\t<meta property=\"og:image:width\" content=\"2560\" \/>\n\t<meta property=\"og:image:height\" content=\"1707\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\",\"width\":2560,\"height\":1707},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/\",\"name\":\"N\\u00e4tverkstrender f\\u00f6r den digitala tids\\u00e5ldern | Sveriges IT-N\\u00e4tverks \\u00c5terf\\u00f6rs\\u00e4ljare och Konsultf\\u00f6retag\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#primaryimage\"},\"datePublished\":\"2020-09-16T12:09:11+00:00\",\"dateModified\":\"2020-09-16T12:10:09+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"N\\u00e4tverkstrender f\\u00f6r den digitala tids\\u00e5ldern\",\"datePublished\":\"2020-09-16T12:09:11+00:00\",\"dateModified\":\"2020-09-16T12:10:09+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#webpage\"},\"wordCount\":547,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\",\"keywords\":[\"Cisco\",\"digitala tids\\u00e5ldern\",\"n\\u00e4tverksarkitekturer\",\"N\\u00e4tverkstrender\",\"SD-WAN\"],\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-tidsaldern-age\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/2558"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=2558"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/2558\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/2419"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=2558"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=2558"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=2558"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 150,
+        "date": "2020-08-11T15:48:43",
+        "date_gmt": "2020-08-11T13:48:43",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=150"
+        },
+        "modified": "2020-09-06T13:38:28",
+        "modified_gmt": "2020-09-06T11:38:28",
+        "slug": "4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/",
+        "title": {
+            "rendered": "4 Tips To Finding A Quality Unified Threat Management (UTM) Security Solution"
+        },
+        "content": {
+            "rendered": "<p><iframe style=\"width: 100%; height: 800px;\" src=\"\/wp-content\/uploads\/2020\/09\/Fortinet-Infographic-ConnectedUTM-Buyers-Guide.pdf\" frameborder=\"0\"><span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">\ufeff<\/span><\/iframe><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>HOW DO YOU PROTECT  YOUR BUSINESS WHILE ENABLING IT TO GROW?<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 151,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>4 Tips To Finding A Quality Unified Threat Management (UTM) Security Solution | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"4 Tips To Finding A Quality Unified Threat Management (UTM) Security Solution | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag\" \/>\n<meta property=\"og:description\" content=\"HOW DO YOU PROTECT YOUR BUSINESS WHILE ENABLING IT TO GROW?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2020-08-11T13:48:43+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-09-06T11:38:28+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img1.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"369\" \/>\n\t<meta property=\"og:image:height\" content=\"248\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img1.jpg\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img1.jpg\",\"width\":369,\"height\":248},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/\",\"name\":\"4 Tips To Finding A Quality Unified Threat Management (UTM) Security Solution | Sveriges IT-N\\u00e4tverks \\u00c5terf\\u00f6rs\\u00e4ljare och Konsultf\\u00f6retag\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#primaryimage\"},\"datePublished\":\"2020-08-11T13:48:43+00:00\",\"dateModified\":\"2020-09-06T11:38:28+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"4 Tips To Finding A Quality Unified Threat Management (UTM) Security Solution\",\"datePublished\":\"2020-08-11T13:48:43+00:00\",\"dateModified\":\"2020-09-06T11:38:28+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#webpage\"},\"wordCount\":11,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img1.jpg\",\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/4-tips-to-finding-a-quality-unified-threat-management-utm-security-solution\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/150"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=150"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/150\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/151"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=150"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=150"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=150"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 147,
+        "date": "2020-08-03T15:48:13",
+        "date_gmt": "2020-08-03T13:48:13",
+        "guid": {
+            "rendered": "https:\/\/firewallforce.se\/?p=147"
+        },
+        "modified": "2020-09-06T13:39:13",
+        "modified_gmt": "2020-09-06T11:39:13",
+        "slug": "6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/",
+        "title": {
+            "rendered": "6 s\u00e4tt hur b\u00e4ttre IT kan f\u00e5 ditt f\u00f6retag att v\u00e4xa"
+        },
+        "content": {
+            "rendered": "<p><iframe style=\"width: 100%; height: 800px;\" src=\"\/wp-content\/uploads\/2020\/09\/Small_Business_Infographic_SE1.pdf\" frameborder=\"0\"><span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">\ufeff<\/span><\/iframe><\/p>\n<p>[vc_row type=&#8221;in_container&#8221; full_screen_row_position=&#8221;middle&#8221; scene_position=&#8221;center&#8221; text_color=&#8221;dark&#8221; text_align=&#8221;center&#8221; class=&#8221;additional-css&#8221; id=&#8221;additional-css&#8221; disable_element=&#8221;yes&#8221; overlay_strength=&#8221;0.3&#8243; shape_divider_position=&#8221;bottom&#8221; bg_image_animation=&#8221;none&#8221; shape_type=&#8221;&#8221;][vc_column column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_link_target=&#8221;_self&#8221; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; width=&#8221;1\/1&#8243; tablet_width_inherit=&#8221;default&#8221; tablet_text_alignment=&#8221;default&#8221; phone_text_alignment=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h4 style=\"text-align: center;\">Oavsett hur litet eller stort ditt f\u00f6retag \u00e4r<br \/>\nb\u00f6r IT v\u00e4xa med ditt f\u00f6retag.<\/h4>\n<p>[\/vc_column_text][vc_row_inner column_margin=&#8221;default&#8221; text_align=&#8221;left&#8221;][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/2&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h3>1. Snabbare distribution<\/h3>\n<p>Molnhanterade IT-plattformar till\u00e5ter fj\u00e4rrhantering av din infrastruktur fr\u00e5n valfri webbl\u00e4sare n\u00e4r som helst. Med m\u00f6jligheten att f\u00f6r-konfigurera enheter innan de ens har levererats och anslutits, kan IT-administrat\u00f6rer installera och konfigurera maskinvara p\u00e5 nolltid. Inga kommando-rader kr\u00e4vs f\u00f6r att f\u00e5 tillg\u00e5ng till avancerade inst\u00e4llningar. [\/vc_column_text][\/vc_column_inner][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/2&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h3>2. Spara resurser<\/h3>\n<p>Molnhanterade n\u00e4tverk \u00e4r enkla att styra och kr\u00e4ver minimal utbildning. Detta \u00e4r idealiskt f\u00f6r organisationer med begr\u00e4nsad IT-personal och medf\u00f6r besparingar p\u00e5 upp till 90% j\u00e4mf\u00f6rt med traditionella n\u00e4tverksinfrastrukturer[\/vc_column_text][\/vc_column_inner][\/vc_row_inner][vc_row_inner column_margin=&#8221;default&#8221; text_align=&#8221;left&#8221; class=&#8221;additional-css&#8221; el_id=&#8221;diff-bg&#8221; css=&#8221;.vc_custom_1599009572999{background-color: #67b346 !important;}&#8221;][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/1&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h2>\u00d6ver <strong>25%<\/strong> av IT-beslutsfattare identifierar<br \/>\nkostnadsbesparing som den fr\u00e4msta prioriteringen f\u00f6r<br \/>\nn\u00e4tverkinfrastrukturen.<\/h2>\n<p>[\/vc_column_text][\/vc_column_inner][\/vc_row_inner][vc_row_inner column_margin=&#8221;default&#8221; text_align=&#8221;left&#8221; class=&#8221;additional-css&#8221; el_id=&#8221;additional-css&#8221;][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/2&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h3>3. F\u00e5 full synlighet<\/h3>\n<p>Molnbaserade dashboarden till\u00e5ter IT-administrat\u00f6rer att se hur deras n\u00e4tverk presterar och att utf\u00f6ra konfigurations\u00e4ndringar \u00f6ver valfritt antal n\u00e4tverk p\u00e5 n\u00e5gra sekunder. Automatiska aviseringar informerar om<br \/>\neventuella problem i n\u00e4tverket som sedan kanfels\u00f6kas p\u00e5 distans.[\/vc_column_text][\/vc_column_inner][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/2&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h3>4. Skydda ditt n\u00e4tverk<\/h3>\n<p>Med molnhanterad IT \u00e4r s\u00e4kerhetsinst\u00e4llningar enkla att synkronisera p\u00e5 tusentals platser med hj\u00e4lp av mallar. Automatisk VPN-teknik ansluter avdelningar s\u00e4kert med n\u00e5gra f\u00e5 klick och tar tillbaka kontrollen dit den h\u00f6r hemma: ditt IT-team.[\/vc_column_text][\/vc_column_inner][\/vc_row_inner][vc_row_inner column_margin=&#8221;default&#8221; text_align=&#8221;left&#8221; class=&#8221;additional-css&#8221; el_id=&#8221;diff-bg&#8221; css=&#8221;.vc_custom_1599010503907{background-color: #4e4b48 !important;}&#8221;][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/1&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h2>\u00d6ver <strong>33%<\/strong> av IT-beslutsfattare uppger att<br \/>\ns\u00e4kerheten oroar dem mest avseende den nuvarande<br \/>\ninfrastrukturen.<\/h2>\n<p>[\/vc_column_text][\/vc_column_inner][\/vc_row_inner][vc_row_inner column_margin=&#8221;default&#8221; text_align=&#8221;left&#8221; class=&#8221;additional-css&#8221; el_id=&#8221;additional-css&#8221;][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/2&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h3>5. Automatiska uppdateringar<\/h3>\n<p>Molnhanterad IT utvecklas kontinuerligt. Den molnbaserade arkitekturen g\u00f6r att enheter automatiskt kan ladda ner och installera uppdateringar av fast programvara med nya funktioner och s\u00e4kerhetsjusteringar. Det s\u00e4kerst\u00e4ller att ditt n\u00e4tverk alltid \u00e4r uppdaterat utan extra investeringar.[\/vc_column_text][\/vc_column_inner][vc_column_inner column_padding=&#8221;no-extra-padding&#8221; column_padding_position=&#8221;all&#8221; background_color_opacity=&#8221;1&#8243; background_hover_color_opacity=&#8221;1&#8243; column_shadow=&#8221;none&#8221; column_border_radius=&#8221;none&#8221; column_link_target=&#8221;_self&#8221; width=&#8221;1\/2&#8243; tablet_width_inherit=&#8221;default&#8221; column_border_width=&#8221;none&#8221; column_border_style=&#8221;solid&#8221; bg_image_animation=&#8221;none&#8221;][vc_column_text]<\/p>\n<h3>6. Digitalisera f\u00f6r framtiden<\/h3>\n<p>Att omarbeta verktyg och processer digitalt samt att skapa nya \u00e4r avg\u00f6rande f\u00f6r kontinuerlig tillv\u00e4xt. Intelligenta molnplattformar har analysverktyg som ger extra aff\u00e4rsinblick och merv\u00e4rde. Obegr\u00e4nsad skalbarhet g\u00f6r det m\u00f6jligt f\u00f6r f\u00f6retag att v\u00e4xa utan problem p\u00e5 ett enkelt s\u00e4tt och ger organisationer den bas de beh\u00f6ver f\u00f6r att p\u00e5b\u00f6rja en omvandlande digitaliseringsresa.[\/vc_column_text][\/vc_column_inner][\/vc_row_inner][\/vc_column][\/vc_row]<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Oavsett hur litet eller stort ditt f\u00f6retag \u00e4r b\u00f6r IT v\u00e4xa med ditt f\u00f6retag.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 148,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>6 s\u00e4tt hur b\u00e4ttre IT kan f\u00e5 ditt f\u00f6retag att v\u00e4xa | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"6 s\u00e4tt hur b\u00e4ttre IT kan f\u00e5 ditt f\u00f6retag att v\u00e4xa | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag\" \/>\n<meta property=\"og:description\" content=\"Oavsett hur litet eller stort ditt f\u00f6retag \u00e4r b\u00f6r IT v\u00e4xa med ditt f\u00f6retag.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2020-08-03T13:48:13+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-09-06T11:39:13+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img2.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"369\" \/>\n\t<meta property=\"og:image:height\" content=\"248\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img2.jpg\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img2.jpg\",\"width\":369,\"height\":248},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/\",\"name\":\"6 s\\u00e4tt hur b\\u00e4ttre IT kan f\\u00e5 ditt f\\u00f6retag att v\\u00e4xa | Sveriges IT-N\\u00e4tverks \\u00c5terf\\u00f6rs\\u00e4ljare och Konsultf\\u00f6retag\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#primaryimage\"},\"datePublished\":\"2020-08-03T13:48:13+00:00\",\"dateModified\":\"2020-09-06T11:39:13+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"6 s\\u00e4tt hur b\\u00e4ttre IT kan f\\u00e5 ditt f\\u00f6retag att v\\u00e4xa\",\"datePublished\":\"2020-08-03T13:48:13+00:00\",\"dateModified\":\"2020-09-06T11:39:13+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#webpage\"},\"wordCount\":986,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/07\/blog-img2.jpg\",\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/6-satt-hur-battre-it-kan-fa-ditt-foretag-att-vaxa\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/147"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=147"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/147\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/148"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=147"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=147"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=147"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "date": "2020-07-20T17:35:13",
+        "date_gmt": "2020-07-20T15:35:13",
+        "guid": {
+            "rendered": "http:\/\/neadelectronics.designpythons.com\/?p=1"
+        },
+        "modified": "2020-09-07T16:01:36",
+        "modified_gmt": "2020-09-07T14:01:36",
+        "slug": "natverkstrender-for-den-digitala-eran",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/",
+        "title": {
+            "rendered": "Networking Trends for the Digital Age"
+        },
+        "content": {
+            "rendered": "<p>Enterprise networks are taking a swing and reshaping towards more advanced and secure framework. Today we are seeing advanced and scalable design practices in industry to make networks autonomous and elastic to cater the requirements of globalization and IFEA (internet for everyone). Automation becomes the part of every digital business and around the world businesses are demanding this digital transformation. With so many things around us like cloud, IOT, Ai, wireless &amp; mobility, web apps and cyber security, the spectrum of internet and related technologies becomes immense. And with this much complexity, human capability to manage today\u2019s infrastructures also become difficult and therefore we are experiencing hardship in finding skilled techies.<\/p>\n<p>A new wave which we are seeing in today\u2019s networks is pretty much new to a lot of business owners. According to a report of 2020 published by Cisco, some key figures are as below.<\/p>\n<ul>\n<li>700 Million Hosting containers will be appear by 2021<\/li>\n<li>50% of workload will be set up outside of enterprise DC by 2021<\/li>\n<li>Industrial IOT load of devices will touch 14B figure by 2022<\/li>\n<li>Mobile traffic will also experience a huge growth by 42% in upcoming 2 years<\/li>\n<li>With all these incredible figures, cyber security threats also going to increase by 53%<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<ul>\n<li>We should follow some guidelines and strategies to overcome these advance complications. As a network engineer you should make strategies and plans to execute errors. A step-by-step structural chart is a good example to build up execution plans and templates for each of your network domain area for your team so in occurrence of a bad situation or incident, one must know what to do which eventually turn up into a successful approach.<\/li>\n<li>Upgradation is also another key factor which we should keep in mind while designing. You cannot expect an obsolete\/EOL\/EOS product to deliver what your business actually need.<\/li>\n<li>With this evolving cycle of transformation, your technical team must have those management and technical skillset which give them a confidence boost while handling advanced network architectures.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>From autonomous to controller based networks, each one has its own ups and downs. But as in today\u2019s intent based networks, Ai based software controller stationed networks are gaining attention. Cisco Predicts that by 2025, organizations will shift towards intent based networks in almost every networking domain. Its impact is already showing us some great discoveries in result of SDN and SD-WAN. Our data centers become much more intelligent following new protocols and structures like overlay\/underlay network. \u00a0With this intelligent software based automation, networks will work in a very systematic way by providing us complete visibility on all layers, ease of escalation and optimization. These advantages will obviously assist us in a very powerful way to understand better and will open more ways to expand our wings.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Enterprise networks are taking a swing and reshaping towards more advanced and secure framework.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 2419,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            414
+        ],
+        "tags": [],
+        "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v16.4 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Networking Trends for the Digital Age | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Networking Trends for the Digital Age | Sveriges IT-N\u00e4tverks \u00c5terf\u00f6rs\u00e4ljare och Konsultf\u00f6retag\" \/>\n<meta property=\"og:description\" content=\"Enterprise networks are taking a swing and reshaping towards more advanced and secure framework.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/\" \/>\n<meta property=\"og:site_name\" content=\"Sveriges st\u00f6rsta online-\u00e5terf\u00f6rs\u00e4ljare av IT-produkter. K\u00f6p nu betala senare\" \/>\n<meta property=\"article:publisher\" content=\"https:\/\/www.facebook.com\/firewallforce.se\" \/>\n<meta property=\"article:published_time\" content=\"2020-07-20T15:35:13+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-09-07T14:01:36+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\" \/>\n\t<meta property=\"og:image:width\" content=\"2560\" \/>\n\t<meta property=\"og:image:height\" content=\"1707\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:label1\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https:\/\/firewallforce.se\/#organization\",\"name\":\"FirewallForce Nordic AB\",\"url\":\"https:\/\/firewallforce.se\/\",\"sameAs\":[\"https:\/\/www.facebook.com\/firewallforce.se\",\"https:\/\/www.instagram.com\/firewallforcesverige\/\",\"https:\/\/www.linkedin.com\/company\/firewallforce-ab\/\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/08\/logo-new.png\",\"width\":7040,\"height\":1179,\"caption\":\"FirewallForce Nordic AB\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/#logo\"}},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/firewallforce.se\/#website\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Sveriges st\\u00f6rsta online-\\u00e5terf\\u00f6rs\\u00e4ljare av IT-produkter. K\\u00f6p nu betala senare\",\"description\":\"En systemintegrator och IT-\\u00e5terf\\u00f6rs\\u00e4ljare av n\\u00e4tverksh\\u00e5rdvara och mjukvaruprodukter. Bl\\u00e4ddra upp till 100000 produkter p\\u00e5 v\\u00e5r webbshop med snabb leverans och enkel betalning.\",\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https:\/\/firewallforce.se\/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\",\"contentUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\",\"width\":2560,\"height\":1707},{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#webpage\",\"url\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/\",\"name\":\"Networking Trends for the Digital Age | Sveriges IT-N\\u00e4tverks \\u00c5terf\\u00f6rs\\u00e4ljare och Konsultf\\u00f6retag\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#primaryimage\"},\"datePublished\":\"2020-07-20T15:35:13+00:00\",\"dateModified\":\"2020-09-07T14:01:36+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https:\/\/firewallforce.se\/\",\"url\":\"https:\/\/firewallforce.se\/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#webpage\"}}]},{\"@type\":\"Article\",\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#article\",\"isPartOf\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#webpage\"},\"author\":{\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\"},\"headline\":\"Networking Trends for the Digital Age\",\"datePublished\":\"2020-07-20T15:35:13+00:00\",\"dateModified\":\"2020-09-07T14:01:36+00:00\",\"mainEntityOfPage\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#webpage\"},\"wordCount\":465,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\/\/firewallforce.se\/#organization\"},\"image\":{\"@id\":\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/firewallforce.se\/wp-content\/uploads\/2020\/03\/blog-img1-min-scaled.jpeg\",\"articleSection\":[\"Alla\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\/\/firewallforce.se\/natverkstrender-for-den-digitala-eran\/#respond\"]}]},{\"@type\":\"Person\",\"@id\":\"https:\/\/firewallforce.se\/#\/schema\/person\/15efb31989e254b5c9c780f3e736a955\",\"name\":\"admin\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https:\/\/firewallforce.se\/#personlogo\",\"inLanguage\":\"en-US\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/66be3b2c3fc1b7cf8345256242f8a95e?s=96&d=mm&r=g\",\"caption\":\"admin\"},\"url\":\"https:\/\/firewallforce.se\/author\/admin\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/1"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/comments?post=1"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 0,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/posts\/1\/revisions"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media\/2419"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/media?parent=1"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/categories?post=1"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/firewallforce.se\/wp-json\/wp\/v2\/tags?post=1"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

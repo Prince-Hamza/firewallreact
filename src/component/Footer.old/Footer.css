@@ -1,0 +1,42 @@
+.footer-container {
+    background-color: black!important;
+    height: fit-content;
+}
+
+.text-muted {
+    color: #b2b2b2!important;
+    cursor: pointer;
+}
+
+.text-muted:hover {
+    color: white!important;
+}
+
+.font-size {
+    font-size: small;
+}
+
+.input-footer {
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+}
+
+.input-footer:focus {
+    outline: none;
+}
+
+.btn-footer {
+    width: 13rem;
+    width: 80%;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .footer-padding-comp {
+        padding-top: 1rem!important;
+        padding-bottom: 0px!important;
+    }
+    .last-col-footer {
+        margin-top: 1rem;
+    }
+}

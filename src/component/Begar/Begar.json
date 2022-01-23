@@ -1,0 +1,69 @@
+{
+    "Heading": "Begär Offert",
+    "FormHeading": "Produkt och prisinformation",
+    "FormPara": "Fyll i formuläret nedan för att få priset på en produkt. Efter att ha skickat begäran kommer en representant att kontakta dig inom några timmar med din prissättning och ytterligare information som du kan behöva för att slutföra ditt köp. Om du har ytterligare frågor kan du helt enkelt mejla eller ringa oss på: +46 (0) 8517 082 92.",
+    "FormRows": [
+        {
+            "type": "input",
+            "items": [
+                {
+                    "name": "Fornamn",
+                    "icon": 0
+                },
+                {
+                    "name": "Efternamn",
+                    "icon": 0
+                }
+            ],
+            "height": "47px"
+        },
+        {
+            "type": "Textbox",
+            "items": [
+                {
+                    "name": "Foretagsnamn",
+                    "icon": 1
+                }
+            ],
+            "height": "40px"
+        },
+        {
+            "type": "input",
+            "items": [
+                {
+                    "name": "Din Email",
+                    "icon": 2
+                },
+                {
+                    "name": "Din Telefonnummer",
+                    "icon": 3
+                }
+            ],
+            "height": "40px"
+        },
+        {
+            "type": "input",
+            "height": "40px",
+            "items": [
+                {
+                    "name": "Intereserard av en produkt,Skriv dess artikelnummer eller SKU",
+                    "icon": 5
+                },
+                {
+                    "name": "Tidsram for Kop",
+                    "icon": 6
+                }
+            ]
+        },
+        {
+            "type": "Textbox",
+            "height": "300px",
+            "items": [
+                {
+                    "name": "Hur kan vi hijalpa dig ?",
+                    "icon": 4
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+.fixed-btn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 88888888;
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+}
+
+.fa-circle{
+    font-size: x-small;
+}
+
+.conatct-div-fixed{
+    position: fixed;
+    bottom: 2rem;
+    right: .5rem;
+    z-index: 55555;
+    width: 9rem;
+    font-size: x-small;
+}
+
+.shipping-div-fixed{
+    position: fixed;
+    bottom: 13rem;
+    left: .5rem;
+    z-index: 55555;
+    width: 9rem;
+    font-size: x-small;
+}
+.Accept-div-fixed{
+    position: fixed;
+    bottom: 1rem;
+    left: .5rem;
+    z-index: 55555;
+    width: 9rem;
+    font-size: x-small;
+}
+.text-small{
+    font-size: small;
+}
+
+.shippingimg{
+    width: 100%;
+    height: 120px;
+    object-fit: fill;
+}

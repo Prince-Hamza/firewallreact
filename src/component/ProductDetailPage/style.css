@@ -1,0 +1,133 @@
+.detail-img-container {
+    height: 29rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail-img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sub-images-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+}
+
+.shortDes {
+    height: auto;
+    width: 75%;
+}
+
+.sub-img-container {
+    padding: 1rem;
+}
+
+.sub-img {
+    width: 100%;
+}
+
+.fa-star {
+    color: #f6b464;
+}
+
+.yellow-color {
+    color: #f6b464;
+}
+
+.badge {
+    background-color: #d32229;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.input-nmbr {
+    width: 40px;
+}
+
+.round-border {
+    border-radius: 15px;
+}
+
+hr {
+    border: 1px solid #d32229;
+    width: 100%;
+}
+
+@media(min-width:768px) and (max-width:1023px) {
+    .shortDes {
+        height: auto;
+        width: 75%;
+    }
+    .column-question-mark {
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width:0px) and (max-width:767px) {
+    .shortDes {
+        height: auto;
+        width: 100%;
+        font-size: 14px!important;
+        border: 2px solid red;
+        display: none;
+    }
+    .text-small {
+        font-size: small;
+    }
+    .sec-route {
+        margin-top: 1rem!important;
+    }
+    .detail-img-container {
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-images-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+    .cart-button-detail {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .input-nmbr {
+        width: 100%;
+        margin-left: 0px!important;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .w-100-resp {
+        width: 100%;
+        margin-left: 0px!important;
+    }
+    .column-question-mark {
+        flex-direction: column;
+        margin-top: 1rem;
+        border: none!important;
+    }
+    .btn-bulk {
+        margin-bottom: 1rem;
+    }
+    .tabs-text {
+        display: flex;
+        width:'100%';
+        font-size: 8px;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .margin-left-none {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    .padding-none {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "thanks": "Thank You.Your order has been recieved",
+    "orderDetails": [
+        {
+            "key": "DATE",
+            "value": "January "
+        },
+        {
+            "key": "TOTAL",
+            "value": "January "
+        },
+        {
+            "key": "PAYMENT METHOD",
+            "value": "Direct Bank Transfer"
+        }
+    ],
+    "para": "We received your order. Thank you for your purchase at FirewallForce.se    Make your payment directly into our bank account. Please use your Order ID as the payment reference. Send us an email for proforma invoice to pay later.    For any question or help in this regard, fee free to contact us via email (sales@firewallforce.se) or call us at 08 517 082 92",
+    "bankDetails": [
+        {
+            "key": "BANK",
+            "value": "NORDEA BANK AB (PUBL) "
+        },
+        {
+            "key": "ACCOUNT NUMBER",
+            "value": "Bankgironummer: 5663-0502 "
+        },
+        {
+            "key": "IBAN",
+            "value": "SE1830000000011953158269"
+        },
+        {
+            "key": "BIC",
+            "value": "NDEASESS"
+        }
+    ]
+}

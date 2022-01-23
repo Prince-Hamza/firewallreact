@@ -1,0 +1,83 @@
+.back-border {
+    border-bottom: 3px solid #dc3545;
+}
+
+.card-height {
+    height: 22rem;
+}
+
+.middle-card {
+    background-image: url('../CarouselGallery/img/g1.jpg');
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heading-middle {
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+.input-email {
+    border-radius: 30px;
+    padding: .5rem;
+    border: none;
+}
+
+.input-email:focus {
+    outline: none;
+}
+
+@media (min-width:1024px) and (max-width:1366px) {
+    .shipping-method {
+        font-size: large;
+    }
+    .join-network {
+        font-size: large;
+        letter-spacing: 4px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .shipping-method {
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .join-network {
+        font-size: large;
+        letter-spacing: 3px;
+    }
+    .span-join {
+        font-size: small;
+    }
+    .card-height {
+        height: 20rem;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .shipping-method {
+        font-size: large;
+        font-weight: bold;
+    }
+    .join-network {
+        font-size: large;
+        letter-spacing: 3px;
+    }
+    .span-join {
+        font-size: small;
+    }
+    .card-height {
+        height: auto;
+    }
+    .icon{
+        margin-bottom: 25px;
+    }
+    .input-email {
+        width: 100%;
+    }
+}

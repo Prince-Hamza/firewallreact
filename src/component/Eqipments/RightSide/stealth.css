@@ -1,0 +1,9 @@
+/* :root {
+    --pic: url("https://media.itscope.com/img/p/-CeJBx1BcuA74Anp7kEBVgk9FBPgSR8bbFhbnB3kBTY=/aHR0cDovL2luaXNob3AuY29tL2ltZy9nYWxsZXJ5Lzc3ODY4MjYzXzA1NDk1MzU0ODMuanBn");
+} */
+
+#si {
+    width: 900px;
+    height: var(--size);
+    background-image: var(--pic)
+}
