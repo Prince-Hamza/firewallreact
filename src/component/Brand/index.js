@@ -11,6 +11,12 @@ const Index = () => {
     // const { GetProductsFirst } = useContext(GlobalContext);
     const [pro, setPro] = useState([])
 
+    var spc = []
+    for (let x = 0; x <= 250; x++) {
+        spc.push(x)
+    }
+
+
     useEffect(() => {
         async function info() {
             const resp = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/products?page=2&per_page=45&consumer_key=ck_42a75ce7a233bc1e341e33779723c304e6d820cc&consumer_secret=cs_6e5a683ab5f08b62aa1894d8d2ddc4ad69ff0526`)
@@ -23,6 +29,9 @@ const Index = () => {
         <HeroSection />
         <FeaturedProduct products={pro} />
         <ListItems />
+        {spc.map(() => {
+            return <br />
+        })}
     </React.Fragment>
 }
 

@@ -4,8 +4,8 @@ import NordeaNetsCart from './NetsAndNorda';
 import PayWithPayPal from './PayWithPayPal';
 
 class OrderBar extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             selectedCountry: "Sweden",
             States: ["Stockholm"],
@@ -16,10 +16,25 @@ class OrderBar extends React.Component {
             netsOrdered: false,
             paypalOrdered: false,
             payView: '',
-            overlayer: false
+            overlayer: false,
+            total: 0,
+            cartInfo: {}
         }
+        this.setState({ total: props.Items.total, cartInfo: props.Items.cartInfo })
+        
     }
 
+    componentDidMount = () => {
+        // alert(`total :: ${this.props.Items.total}`)
+
+        // alert(JSON.stringify(this.props.location))
+        // this.props.items &&
+        //     this.props.items.forEach(item => {
+        //         this.state.total += Number(item.price) * Number(item.count)
+        //         this.setState({ total: this.state.total })
+        //     })
+        // alert(this.state.total)
+    }
 
     switchPay = (e) => {
         this.setState({
@@ -32,7 +47,7 @@ class OrderBar extends React.Component {
 
 
     onOrder = () => {
-        alert(this.state.selectedPay)
+        // alert(this.state.selectedPay)
 
         if (this.state.selectedPay === 'nets') {
             this.setState({ netsOrdered: true })
@@ -41,10 +56,12 @@ class OrderBar extends React.Component {
 
         setTimeout(() => {
             if (this.state.selectedPay === 'nets') {
-                document.getElementById("netsPayButton").click()
+            //    document.getElementById("netsPayButton").click()
+            this.setState({ netsOrdered: true })
+
             }
             else if (this.state.selectedPay === 'paypal') {
-                alert("Paypal")
+                // alert("Paypal")
                 this.setState({ paypalOrdered: true })
             }
 
@@ -77,14 +94,14 @@ class OrderBar extends React.Component {
                 {this.props.Items &&
                     <section style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start' }} >
                         <div style={Styles.productsBox} >
-                            {this.props.Items.map((item) => {
+                            {/* {this.props.Items.map((item) => {
                                 return (
-                                    <div style={{ display: 'flex', flexDirection: 'row' , justifyContent:'flex-start' , alignItems:'center' , marginLeft: '0.3%' , marginBottom:'0.3%' , marginTop:'0.3%' }} >
+                                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '0.3%', marginBottom: '0.3%', marginTop: '0.3%' }} >
                                         <img width={"30%"} height={"70px"} src={item.image[0]} alt={item.image[0]} />
-                                        <p style={{font:'12px arial' , marginTop: '5%'}} >  {item.price} </p>
+                                        <p style={{ font: '12px arial', marginTop: '5%' }} >  {item.price} </p>
                                     </div>
                                 )
-                            })}
+                            })} */}
                         </div>
                     </section>
                 }
@@ -155,8 +172,15 @@ class OrderBar extends React.Component {
                     Place Order
                 </button>
 
-                {this.state.paypalOrdered && <PayWithPayPal items={this.props.Items} total={0} />}
-                {this.state.netsOrdered && <NordeaNetsCart items={this.props.Items} switchView={this.switchView} switchOverlayer={this.switchOverlayer} />}
+                {this.state.paypalOrdered &&
+
+                    <PayWithPayPal items={this.props.Items.cartInfo} total={this.props.Items.total} />
+                }
+
+                {
+                    this.state.netsOrdered &&
+                    <NordeaNetsCart items={this.props.Items.cartInfo} switchView={this.switchView} switchOverlayer={this.switchOverlayer} />
+                }
 
 
             </Grid>

@@ -98,7 +98,7 @@ export default class NordeaNetsCart extends Component {
             })
             .catch(function (error) {
                 App.props.switchOverlayer()
-                alert(error)
+                // alert(error)
                 console.log(error);
             })
 

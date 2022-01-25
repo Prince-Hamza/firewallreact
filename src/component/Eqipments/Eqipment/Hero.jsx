@@ -33,10 +33,10 @@ const Hero = () => {
                         <div className="detail-item d-flex justify-content-center align-items-center h-100">
                             <div className="overlay d-flex align-items-center">
                                 <div style={{ width: "20rem" }} className="mx-4 text-center">
-                                    <h6 style={{ marginBottom: "0.3rem", letterSpacing: "1px" }} className="text-uppercase">providing you with the best <br /> solutions for your business</h6>
-                                    <p style={{ marginBottom: "0px" }} className="font-size-small" style={{fontFamily: 'Poppins',fontSize: '14px'}}>
+                                    {/* <h6 style={{ marginBottom: "0.3rem", letterSpacing: "1px" }} className="text-uppercase">providing you with the best <br /> solutions for your business</h6> */}
+                                    {/* <p style={{ marginBottom: "0px" }} className="font-size-small" style={{fontFamily: 'Poppins',fontSize: '14px'}}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </div>

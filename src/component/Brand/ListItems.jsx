@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import axios from 'axios'
 import AccordionComp from './Filter/AccordionComp';
 import { Hypnosis } from "react-cssfx-loading";
+import Grid from '@material-ui/core/Grid';
 
 const ListItems = () => {
     // const { products, setProductDetail, setCartData } = useContext(GlobalContext);
@@ -141,7 +142,6 @@ const ListItems = () => {
             .getPropertyValue(`--${varname}`);
     }
 
-
     const maskImage = (image) => {
         let random = Math.random().toString().split('.').join('_')
         setCssVar(`pic_${random}`, `url('${image}')`)
@@ -154,6 +154,25 @@ const ListItems = () => {
         setProducts(newPros)
     }
 
+
+
+    const detectMob = () => {
+        const toMatch = [
+            /Android/i,
+            /webOS/i,
+            /iPhone/i,
+            /iPad/i,
+            /iPod/i,
+            /BlackBerry/i,
+            /Windows Phone/i
+        ];
+
+        return toMatch.some((toMatchItem) => {
+            return navigator.userAgent.match(toMatchItem);
+        });
+    }
+
+
     return <>
         <section>
 
@@ -165,11 +184,6 @@ const ListItems = () => {
                 </section>
             }
 
-            <div style={{ position: 'absolute', top: '247%', left: '1%', width: '25%', height: '950px' }} >
-                <AccordionComp title={"Brands"} Brands={allBrands} Switch={"Brands"} brandFunc={checkedBrands} />
-            </div>
-
-
 
             <section className="text-center bygga-parent equip-parent py-3">
                 <span style={{ fontFamily: 'Poppins', color: '#575757' }} className="back-border bygga-text-heading fs-4 fw-bold text-capitalize">
@@ -177,16 +191,14 @@ const ListItems = () => {
                 </span>
             </section>
 
-            {
-                breaks.map(() => {
-                    return (
-                        <br />
-                    )
-                })
-            }
 
 
-            <div className="py-4 px-2 my-4 shadow-sm" style={{ position: 'absolute', top: '240%', left: '25%', backgroundColor: "white", width: '70%', margin: 'auto', fontFamily: 'popins' }}>
+            <div style={{ position: 'absolute', top: detectMob() ? '150%' : '227%', left: detectMob() ? '10%' : '1%', width: detectMob() ? '80%' : '25%', height: detectMob() ? '550px' : '950px' }} >
+                <AccordionComp title={"Brands"} Brands={allBrands} Switch={"Brands"} brandFunc={checkedBrands} />
+            </div>
+
+
+            <div className="py-4 px-2 my-4 shadow-sm" style={{ position: 'absolute', top: '220%', left: detectMob() ? '9%' : '25%', backgroundColor: "white", width: '70%', margin: 'auto', fontFamily: 'popins' }}>
                 <section className="grid-comm grid-brand-map" >
                     {
                         products && products.map((item, index) => {
@@ -232,6 +244,8 @@ const ListItems = () => {
                 <Pagination updatePage={getInfo} brand={brand} />
 
             </div>
+
+
         </section>
     </>
 }
@@ -319,6 +333,7 @@ const Styles = ({
     stealthImage: {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'contain',
+        pointerEvents: 'none'
     }
 
 })

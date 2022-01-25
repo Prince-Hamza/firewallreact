@@ -41,7 +41,7 @@ const ECommerce = ({ categoryInfo, productCategory, setProductDetail, getAllProd
 
     const AddDetailFunc = (item) => {
         setProductDetail(item);
-        history.push(`/detailpage?name=${item.name.split(' ').join('-')}`, item)
+        history.push(`/product/${item.name.split(' ').join('-')}`, item)
     }
 
     const AddToCart = (item) => {
@@ -74,10 +74,13 @@ const ECommerce = ({ categoryInfo, productCategory, setProductDetail, getAllProd
             <section className="grid-comm">
                 {
                     productCategory && productCategory?.map((item, index) => {
-                        return <div className={toggle === 0 ? " d-sm-block " : "d-none"} >
-                            <section key={index} className="bg-white mb-3 mx-2 shadow px-3" style={{ borderRadius: "15px" }}>
+                        return <div
+                            key={Math.random()}
+                            className={toggle === 0 ? " d-sm-block " : "d-none"}
+                            onClick={() => { AddDetailFunc(item) }}
+                        >
+                            <section className="bg-white mb-3 mx-2 shadow px-3" style={{ borderRadius: "15px" }}>
                                 <div
-                                    onClick={(e) => AddDetailFunc(item)}
                                     className="d-flex brand-img-div-map justify-content-center align-items-center pt-3"
                                     style={{ ...Styles.stealthImage, backgroundImage: maskImage(item.primaryImage) }}
                                 >
@@ -130,9 +133,9 @@ const ECommerce = ({ categoryInfo, productCategory, setProductDetail, getAllProd
                                         <div>
                                             <span className="text-capitalize ">{item.name}</span>
                                             <div>
-                                                <p style={{ fontFamily: 'poppins' }} className="font-size-small ms-1">
+                                                <div style={{ fontFamily: 'poppins' }} className="font-size-small ms-1">
                                                     {ReactHtmlParser(item.short_description)}
-                                                </p>
+                                                </div>
                                             </div>
                                             <section>
                                                 <span className="fw-bold text-danger">{item.price} kr</span>
@@ -140,9 +143,9 @@ const ECommerce = ({ categoryInfo, productCategory, setProductDetail, getAllProd
                                             </section>
                                         </div>
                                         <div className=" d-flex justify-content-center align-items-center">
-                                            <p className="font-size-small ms-txt ms-3">
+                                            <div className="font-size-small ms-txt ms-3">
                                                 {ReactHtmlParser(item.short_description.substring(0, 75))}
-                                            </p>
+                                            </div>
                                         </div>
                                     </section>
                                     <section className="mt-1 btn-extra-grid" style={{ fontFamily: 'Poppins' }}>
@@ -191,5 +194,7 @@ const Styles = ({
     stealthImage: {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'contain',
+        pointerEvents: 'none'
+
     }
 })

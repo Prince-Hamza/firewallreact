@@ -4,12 +4,12 @@ import SHeader from './SHeader/SHeader';
 import Navbar from './Navbar/Navbar';
 import AfterNav from './Navbar/AfterNav';
 
-const index = () => {
+const index = (props) => {
     return (
-        <div>
+        <div id="header-top" >
             <FHeader />
             <SHeader />
-            <Navbar />
+            <Navbar switchArrows={props.switchArrows} />
             <AfterNav />
         </div>
     )

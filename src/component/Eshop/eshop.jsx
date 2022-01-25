@@ -25,6 +25,8 @@ const detectMob = () => {
 }
 
 
+
+
 export default class Eshop extends React.Component {
     constructor(props) {
         super(props)
@@ -55,6 +57,10 @@ export default class Eshop extends React.Component {
         return name
     }
 
+    validateLink = (name) => {
+        name = name.substring(0, name.length - 4)
+        return name.split(' ').join('-')
+    }
 
     render() {
         let array = [1, 2, 4, 5, 6, 7, 8, 9]
@@ -122,7 +128,7 @@ export default class Eshop extends React.Component {
                                                 style={{ width: '100%', height: '55%' }}
                                                 src={require(`../../assets/icons_for_categories/icons/${item}`).default}
                                                 alt=""
-                                                onClick={() => { this.props.history.push(`/product-category?catID=696&category=${this.validateName(item)}&slug=${item}`) }}
+                                                onClick={() => { this.props.history.push(`/product-category/${this.validateLink(item)}`) }}
 
                                             />
                                             <div style={{ ...Styles.iconTextWrap, font: item.length <= 30 ? '12px poppins' : '11px poppins' }} >
@@ -144,7 +150,7 @@ export default class Eshop extends React.Component {
                                             <img style={{ width: '100%', height: '55%' }}
                                                 src={require(`../../assets/icons_for_categories/icons/${item}`).default}
                                                 alt=""
-                                                onClick={() => { this.props.history.push(`/product-category?catID=696&category=${this.validateName(item)}&slug=${item}`) }}
+                                                onClick={() => { this.props.history.push(`/product-category?/${this.validateLink(item)}`) }}
                                             />
                                             <div style={{ ...Styles.iconTextWrap, font: item.length <= 30 ? '12px poppins' : '11px poppins' }} >
                                                 <p > {this.validateName(item)}  </p>
@@ -185,7 +191,7 @@ export default class Eshop extends React.Component {
                                                         style={{ width: '100%', height: '100%' }}
                                                         src={require(`../../assets/icons_for_categories/icons/${item}`).default}
                                                         alt=""
-                                                        onClick={() => { this.props.history.push(`/product-category?catID=696&category=${this.validateName(item)}&slug=${item}`) }}
+                                                        onClick={() => { this.props.history.push(`/product-category/${this.validateLink(item)}`) }}
                                                     />
                                                 </div>
                                                 <div style={Styles.iconTextWrap} >

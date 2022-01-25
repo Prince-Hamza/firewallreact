@@ -6,7 +6,7 @@ import queryString from "query-string";
 import { GlobalContext } from "../Context/Context";
 
 const Index = () => {
-    const { catID, category, slug } = queryString.parse(window.location.search);
+    const category = window.location.href.split(`/`)[4].split('-').join(' ')
     const { getAllProductCategories, productCategory, setProductDetail, categoryInfo } = useContext(GlobalContext);
 // const [data , setData] 
     useEffect( () => {
@@ -23,8 +23,8 @@ const Index = () => {
                 getAllProductCategories={getAllProductCategories}
                 setProductDetail={setProductDetail}
                 productCategory={productCategory}
-                catID={catID}
-                slug={slug}
+                //catID={catID}
+                //slug={slug}
                 category={category}
                 categoryInfo={categoryInfo}
             />

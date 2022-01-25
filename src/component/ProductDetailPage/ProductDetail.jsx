@@ -21,22 +21,15 @@ const ProductDetail = (props) => {
   const [bannerUrl, setBannerUrl] = useState('')
   const [showQuoteBox, setShowQuoteBox] = useState(false)
   const [quoteBoxData, setQuoteBoxData] = useState(false)
-
   const [ItScopeStockStatus, setItScopeStockStatus] = useState('')
   const history = useHistory();
-
-  // const { productDetail, productCategory, setCartData } = useContext(
-  //   GlobalContext
-  // )
   const [productDetail, setProductDetail] = useState({})
   const [htmlSpecs, setHtmlSpecs] = useState("")
   const [infoRecieved, setInfoRecieved] = useState(false)
-
   const [productCategory, setProductCategory] = useState({})
   const [cartData, setCartData] = useState({})
-
-  const [defaultImage, setDefault] = useState("")
-
+  const [defaultImage, setDefault] = useState(undefined)
+  const [mainPic, setMainPic] = useState(undefined)
   console.log('product Detail page==>', productDetail)
 
 
@@ -226,7 +219,7 @@ const ProductDetail = (props) => {
             <Col className='py-4' lg={6}>
               <section className='detail-img-container '>
 
-                <div style={{ ...Styles.stealthImage, backgroundImage: maskImage(defaultImage), width: '100%', height: '100%' }} >
+                <div style={{ ...Styles.stealthImage, backgroundImage: maskImage(mainPic || defaultImage), width: '100%', height: '100%' }} >
 
                 </div>
                 {/* <img
@@ -245,7 +238,7 @@ const ProductDetail = (props) => {
                     return (
                       <div
                         style={{ ...Styles.ImagesItem, ...Styles.stealthImage, backgroundImage: maskImage(item), height: '60px' }}
-                        onClick={() => { setDefault(item) }}
+                        onClick={() => { setMainPic(item) }}
                       // className='sub-img-container shadow'
                       >
                         {/* <img className='sub-img' src={item} alt='' onClick={() => {
@@ -300,7 +293,7 @@ const ProductDetail = (props) => {
                   productDetail.short_description
                 )}
               </div>
-              <div className='mt-1 m-1 d-flex'>
+              <div className='d-flex'>
                 <section>
                   <i style={{ color: '#FCC201', boxShadow: '0px 0px 6px 1px #FCC201' }} className='fa mx-0 fa-star fa-md'></i>
                   <i style={{ color: '#FCC201', boxShadow: '0px 0px 6px 1px #FCC201' }} className='fa mx-0 fa-star fa-md'></i>
@@ -567,7 +560,6 @@ const Styles = ({
   bulletView: {
     font: 'italic 10px times new roman'
   },
-
   quoteBox: {
     position: 'absolute',
     top: '30%',
@@ -588,5 +580,6 @@ const Styles = ({
   stealthImage: {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'contain',
+    pointerEvents: 'none'
   }
 })

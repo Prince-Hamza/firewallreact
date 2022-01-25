@@ -11,16 +11,11 @@ export default class NordeaNetsCart extends Component {
             showButtons: false
         }
     }
-
-    
     componentDidMount = () => {
-
-        // console.log(`total :: ${this.props.total}`)
-        alert(`item :: ${JSON.stringify(this.props.items)}`)
-
+        console.log(`total :: ${this.props.total}`)
+        console.log(`item :: ${JSON.stringify(this.props.items)}`)
         // if (this.props.method == 'nordea')   this.nordeaCheckout(this.props.items) 
         // if (this.props.method == 'nets')   this.netsCheckout(this.props.items)
-
         this.setState({ info: this.props.items, showButtons: true })
         console.log("products info saved")
 
@@ -112,24 +107,24 @@ export default class NordeaNetsCart extends Component {
 
 
     render() {
-        if (this.state.showButtons) {
-            return (
-                <div>
-                    {/* <div style={Styles.List} >
-                        {this.state.Products.map((product) => <Item key={Math.random()} Product={product} />)}
-                    </div> */}
-
-                    <div >
-                        {/* <button style={{ ...Styles.Button, top: '70%', marginTop:'10px' }} onClick={() => { this.nordeaCheckout(this.state.Products) }} > checkout with Nordea </button> */}
-                        <button id="netsPayButton" style={{ ...Styles.Button, backgroundColor: 'lightgreen' }} onClick={() => { this.netsCheckout(this.state.Products) }} > Checkout With Nets </button>
-                    </div>
-                    {/* <CheckoutButtons Products={this.state.Products} /> */}
+        // if (this.state.showButtons) {
+        return (
+            <div style={Styles.Theme}>
+                <div style={Styles.List} >
+                    {this.state.Products.map((product) => <Item key={Math.random()} Product={product} />)}
                 </div>
 
-            )
-        }
+                <div >
+                    {/* <button style={{ ...Styles.Button, top: '70%', marginTop:'10px' }} onClick={() => { this.nordeaCheckout(this.state.Products) }} > checkout with Nordea </button> */}
+                    <button style={{ ...Styles.Button, marginTop: '10px', backgroundColor: 'lightgreen' }} onClick={() => { this.netsCheckout(this.state.Products) }} > Checkout With Nets </button>
+                </div>
+                {/* <CheckoutButtons Products={this.state.Products} /> */}
+            </div>
 
-        return null
+        )
+        //}
+
+        //        return null
 
 
     }
@@ -228,14 +223,28 @@ const Styles = ({
         cursor: 'pointer'
     },
     Button: {
-        // position: 'absolute',
-        // left: '1%',
+        position: 'absolute',
+       // left: '1%',
+        top: '175%',
+        marginRight: '15%',
         width: '200px',
         height: '50px',
         cursor: 'pointer',
+        //margin: '15px',
         backgroundColor: 'lightgreen',
         color: 'white',
         border: 'none'
 
     },
+    // Button: {
+    //     position: 'absolute',
+    //     left: '1%',
+    //     width: '200px',
+    //     height: '50px',
+    //     cursor: 'pointer',
+    //     margin: 10,
+    //     backgroundColor: '#dc3545',
+    //     color: 'white',
+    //     border: 'none'
+    // },
 })

@@ -11,7 +11,7 @@ import FeaturedProduct from '.././Brand/FeaturedProduct'
 import { useEffect , useState } from 'react'
 import axios from 'axios';
 
-const Index = () => {
+const Index = (props) => {
 
     const [pro, setPro] = useState([])
 
@@ -66,7 +66,7 @@ const Index = () => {
 
     return (
         <div>
-            <Carousel />
+            <Carousel showArrows={props.showArrows} />
             <Popularcategory />
             <FeaturedProduct products={pro} />
             <Services />

@@ -35,8 +35,9 @@ const Gallery = ({ blogData, productBlog }) => {
     // const { blogsToShow } = useContext(GlobalContext);
 
     const blog = blogData && blogData[0];
+    // alert(JSON.stringify(blog))
     const array = [img1, img2, img3, img4, img5];
-console.log("hahahahah ====111==>", productBlog)
+    console.log("hahahahah ====111==>", productBlog)
 
     return (
         <div className={classes.root}>
@@ -44,8 +45,8 @@ console.log("hahahahah ====111==>", productBlog)
                 <GridListTile className="flex-fill h-100" >
                     <img src={productBlog && productBlog.images && productBlog.images[0]} alt="" />
                     <GridListTileBar
-                      
-                        subtitle={<span style={{fontFamily:'Poppins', fontSize:'16px'}}>{productBlog && productBlog.title && productBlog.title?.rendered}</span>}
+
+                        subtitle={<span style={{ fontFamily: 'Poppins', fontSize: '16px' }}>{productBlog && productBlog.title && productBlog.title?.rendered}</span>}
                         actionIcon={
                             <IconButton aria-label={`info about`} className={classes.icon}>
                                 <InfoIcon />
@@ -54,7 +55,7 @@ console.log("hahahahah ====111==>", productBlog)
                     />
                 </GridListTile>
             </GridList>
-            <div className=' w-100 py-3' style={{ backgroundColor: "#f7f7f7" , display:'flex' , justifyContent:'center' , alignItems:'center' }}>
+            <div className=' w-100 py-3' style={{ backgroundColor: "#f7f7f7", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <section className="w-50 post-options d-flex justify-content-evenly">
                     <i className="fa fa-lg fa-heart text-danger" aria-hidden="true"></i>
                     <i className="fa text-muted fa-lg fa-commenting-o" aria-hidden="true"></i>

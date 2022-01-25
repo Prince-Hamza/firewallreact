@@ -19,7 +19,7 @@ const Post = (props) => {
         const URL = `https://shop.firewallforce.se/wp-json/wc/v3/blogs?page=1&limit=100`
         const { data } = await axios.get(URL)
         setBlogData(data)
-        alert(`total Blogs : ${data.length}`)
+        // alert(`total Blogs : ${data.length}`)
         // alert(JSON.stringify(data))
 
 
@@ -56,8 +56,9 @@ const Post = (props) => {
                     {blogData && <Row>
                         <Col lg={9}>
                             <Gallery blogData={blogData} productBlog={thisBlog} />
-                            {/* <PostComment blogData={props.blogData} /> */}
+                            <PostComment blogData={props.blogData} />
                         </Col>
+                        
                         <Col lg={3}>
                             <Category page="post" blogData={blogData} />
                         </Col>

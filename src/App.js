@@ -28,6 +28,10 @@ import Begar from './component/Begar/Begar.jsx'
 import BankTransfer from './component/Checkout/bankTransfer';
 import Checkout from './component/Checkout/Checkout';
 import Eshop from './component/Eshop/eshop';
+import TermsAndConditions from './component/TermsAndConditions'
+import PrivacyPolicy from './component/PrivacyPolicy'
+import Disclaimer from './component/Disclaimer'
+
 import { useState, useEffect } from 'react'
 
 const App = () => {
@@ -53,7 +57,7 @@ const App = () => {
                     <Route path="/blogdetail" component={Post} />
                     <Route path="/vara-losningar" component={Architecturer} />
                     <Route path="/vara-tjanster" component={SuccessStory} />
-                    <Route path="/detailpage" component={ProductDetailPage} />
+                    <Route path="/product/:id" component={ProductDetailPage} />
                     <Route path="/faq" component={FAQ} />
                     <Route path="/model" component={Model} />
                     <Route path="/om-oss" component={AboutUs} />
@@ -61,12 +65,18 @@ const App = () => {
                     <Route path="/varumarken" component={Brand} />
                     <Route path="/datacenter" component={DataCenter} />
                     <Route path="/resurser" component={Resource} />
-                    <Route exact path="/equipment" render={(props) => <Eqipments showArrows={showArrows} {...props} />} />
+                    <Route exact path="/product-category/:id" render={(props) => <Eqipments showArrows={showArrows} {...props} />} />
                     <Route path="/products" component={Products} />
                     <Route path="/cart" component={Cart} />
                     <Route path="/checkout" component={Checkout} />
                     <Route exact path="/bank-transfer" component={BankTransfer} />
                     <Route exact path="/begar-offert-it-natverksprodukter" component={Begar} />
+                    <Route exact path="/terms-and-conditions" component={TermsAndConditions} />
+                    <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+                    <Route exact path="/disclaimer-ansvarsfriskrivning" component={Disclaimer} />
+
+
+
                 </Switch>
                 <Footer />
             </BrowserRouter>

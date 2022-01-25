@@ -8,39 +8,39 @@ const AfterNav = () => {
         <div className="main-after-nav">
             <section className="container afterNav-main d-flex justify-content-between align-items-center">
                 <div className="afternav-div-container">
-                    <span>Promise</span>
+                    <span>{"150,000+ produkter från över 50 varumärken"}</span>
                 </div>
                 <div className="afternav-div-container">
                     <i className="fa fa-refresh mx-1" aria-hidden="true"></i>
-                    <span>Free 30 Days Return Policy</span>
+                    <span>15-30 dagars returpolicy</span>
                 </div>
                 <div className="afternav-div-container">
-                    
+
                     <div className="d-flex align-items-center" >
-                    <span>
+                        <span>
                             <img className=" mx-1 " src={pic} alt="" />
-                            </span>
-                            Rated Excellent 
-                            {/* <span className="text-danger h2 mx-2 fw-light">Firewall<span className="text-dark h2 fw-light">Force</span></span> */}
-                        </div>
-                        
-                        
+                        </span>
+                        Betygsatt utmärkt
+                        {/* <span className="text-danger h2 mx-2 fw-light">Firewall<span className="text-dark h2 fw-light">Force</span></span> */}
+                    </div>
+
+
                 </div>
                 <div className="afternav-div-container">
-                <span >
-                            <img className=" mx-1 " src={pic3} alt="" />
-                            </span>
-                    Fast Delivery 2-3 Days
+                    <span >
+                        <img className=" mx-1 " src={pic3} alt="" />
+                    </span>
+                    Snabb leverans 2-3 dagar
                 </div>
                 <div className="afternav-div-container">
-                <span >
-                            <img className=" mx-1 " src={pic2} alt="" />
-                            </span>
-                    Pay With Invoice, 15-30 days Credit Line Always invest Free 
+                    <span >
+                        <img className=" mx-1 " src={pic2} alt="" />
+                    </span>
+                    senare med faktura, 15-30 dagars kreditlinje, Alltid räntefri
                 </div>
-                <div className="afternav-div-container">
+                {/* <div className="afternav-div-container">
                     <span>Purchase Online, Buy</span>
-                </div>
+                </div> */}
             </section>
         </div>
     )

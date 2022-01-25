@@ -13,7 +13,7 @@ export default class NordeaNetsCart extends Component {
     }
     componentDidMount = () => {
         console.log(`total :: ${this.props.total}`)
-        alert(`item :: ${JSON.stringify (this.props.items)}`)
+        // alert(`item :: ${JSON.stringify (this.props.items)}`)
        // if (this.props.method == 'nordea')   this.nordeaCheckout(this.props.items) 
        // if (this.props.method == 'nets')   this.netsCheckout(this.props.items)
         this.setState({info:this.props.items , showButtons:true})
@@ -61,7 +61,7 @@ export default class NordeaNetsCart extends Component {
 
 
     netsCheckout = (Products) => {
-        alert("nets checkout")
+        // alert("nets checkout")
         var postArray = []
 
         this.state.info.forEach(pro => {

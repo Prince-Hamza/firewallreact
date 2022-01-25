@@ -6,6 +6,11 @@ const PayWithPayPal = ({ items, total }) => {
     const PayPalRef = useRef();
 
     useEffect(() => {
+        // window.addEventListener('load', function () {
+        //     alert('hello!');
+        // }, false);
+
+
         window.paypal.Buttons({
             createOrder: (data, actions) => {
                 return actions.order.create({
@@ -13,20 +18,25 @@ const PayWithPayPal = ({ items, total }) => {
                     purchase_units: [{
                         description: "Firewall Force Payment",
                         amount: {
-                            currency_code: 'KR',
-                            value: total
+                            currency: 'KR',
+                            value: total.toFixed(2)
                         }
                     }]
                 })
             },
             onApprove: async (data, actions) => {
-                await actions.order.capture();
-                setPaidfor(true);
+                alert("approve")
+                await actions.order.capture()
+                setPaidfor(true)
             },
             onError: err => {
+                alert(err)
                 setError(err);
             }
         }).render(PayPalRef.current)
+
+
+
     }, [])
 
     if (paidFor) return <h1>Thanks for purchasing...!</h1>

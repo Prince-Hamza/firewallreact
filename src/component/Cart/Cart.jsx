@@ -6,6 +6,7 @@ import { useState } from 'react'
 import PayWithPayPal from './PayWithPayPal'
 import { Table, Card } from 'react-bootstrap'
 import NordeaNetsCart from './NetsAndNorda'
+import { useHistory, useLocation } from 'react-router-dom'
 
 const useStyles = makeStyles(theme =>
     createStyles({
@@ -38,6 +39,9 @@ const Cart = () => {
     const [overlayer, setOverLayer] = useState(false)
     const [payView, setPayView] = useState('')
     const [checkedVal, setCheckedVal] = useState("nets")
+
+    const history = useHistory()
+    const location = useLocation()
 
 
 
@@ -275,7 +279,7 @@ const Cart = () => {
                                 <div className='d-flex justify-content-start mb-3'>
                                     {isCheckout ? (
                                         <>
-                                            <PayWithPayPal items={cartData} total={total} />
+                                            {/* <PayWithPayPal items={cartData} total={total} />
 
                                             <NordeaNetsCart
                                                 items={cartData}
@@ -283,11 +287,11 @@ const Cart = () => {
                                                 method={paymentMethod}
                                                 switchOverlayer={switchOverlayer}
                                                 switchView={switchView}
-                                            />
+                                            /> */}
                                         </>
                                     ) : (
                                         <button
-                                            onClick={() => setCheckout(true)}
+                                            onClick={() => history.push('/checkout', { cartInfo: cartData, total: total })}
                                             className='btn btn-danger '
                                         >
                                             Proceed To Checkout

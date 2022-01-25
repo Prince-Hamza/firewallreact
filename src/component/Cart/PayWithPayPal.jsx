@@ -25,7 +25,7 @@ const PayWithPayPal = ({ items, total }) => {
                 })
             },
             onApprove: async (data, actions) => {
-                alert("approve")
+                // alert("approve")
                 await actions.order.capture()
                 setPaidfor(true)
             },

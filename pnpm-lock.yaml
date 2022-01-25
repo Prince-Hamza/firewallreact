@@ -25,6 +25,7 @@ specifiers:
   react-elastic-carousel: ^0.11.5
   react-html-parser: ^2.0.2
   react-icons: ^4.3.1
+  react-mailchimp-subscribe: ^2.1.3
   react-router-dom: ^5.2.0
   react-scripts: 4.0.3
   react-slick: ^0.28.1
@@ -59,6 +60,7 @@ dependencies:
   react-elastic-carousel: 0.11.5_7a082f7d10047d47195aea793f958a14
   react-html-parser: 2.0.2_react@17.0.2
   react-icons: 4.3.1_react@17.0.2
+  react-mailchimp-subscribe: 2.1.3_react@17.0.2
   react-router-dom: 5.3.0_react@17.0.2
   react-scripts: 4.0.3_react@17.0.2
   react-slick: 0.28.1_react-dom@17.0.2+react@17.0.2
@@ -8803,6 +8805,12 @@ packages:
       graceful-fs: 4.2.8
     dev: false
 
+  /jsonp/0.2.1:
+    resolution: {integrity: sha1-pltPoPEL2nGaBUQep7lMVfPhW64=}
+    dependencies:
+      debug: 2.6.9
+    dev: false
+
   /jsonparse/1.3.1:
     resolution: {integrity: sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=}
     engines: {'0': node >= 0.2.0}
@@ -11562,6 +11570,17 @@ packages:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
     dev: false
 
+  /react-mailchimp-subscribe/2.1.3_react@17.0.2:
+    resolution: {integrity: sha512-ZRuPZMnX/9pHQLnAQavsgB5xIF+gNqjNCCq1vvTs23cn+93W2oOp17qjg3LpDBEt1HJi6IHXMwpKXn0taY8FHw==}
+    peerDependencies:
+      react: '>=15'
+    dependencies:
+      jsonp: 0.2.1
+      prop-types: 15.7.2
+      react: 17.0.2
+      to-querystring: 1.1.1
+    dev: false
+
   /react-only-when/1.0.2_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-agE6l3L6bqaVuwNtjihTQ36M+VBfPS63KOzcNL4ZTmlwSxQPvhzIqmBWfiol0/wLYmKxCcBqgXkEJpvj5Kob8Q==}
     engines: {node: '>=8', npm: '>=5'}
@@ -13377,6 +13396,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       kind-of: 3.2.2
+    dev: false
+
+  /to-querystring/1.1.1:
+    resolution: {integrity: sha512-ZgIacl9TXAoT7sGXUYjQiy0MW7Tf/7CJQLt757hYHfXXc8JBzOVBMx4DckqKUO4hi36J72/m8UcH/GCHK+n97g==}
     dev: false
 
   /to-readable-stream/1.0.0:

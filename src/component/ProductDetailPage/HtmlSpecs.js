@@ -1,12 +1,12 @@
 import axios from "axios"
 
 export const getStandardHtmlDataSheet = async (link) => {
-    alert(`link :: ${link}`)
+    // alert(`link :: ${link}`)
 
     var resp = await axios.get(link).catch((err) => { alert(err) })
     let tableData = resp.data.toString()
 
-    alert(`table Data : ${tableData}`)
+    // alert(`table Data : ${tableData}`)
 
     let tableStart = tableData.indexOf('Main features')
     let tableEnd = tableData.lastIndexOf('/td><td></td></tr>') + 19
@@ -18,7 +18,7 @@ export const getStandardHtmlDataSheet = async (link) => {
     let keys = [], values = [], finalPara = ''
 
     nodes.map((item) => {
-        alert(`nodes : ${item}`)
+        // alert(`nodes : ${item}`)
         item.map((line, index) => {
             if (line.includes('General')) {
                 // finalPara += `<div class=\"ITSg\">General</div>`

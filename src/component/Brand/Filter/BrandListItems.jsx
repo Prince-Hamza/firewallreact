@@ -117,7 +117,7 @@ export default class BrandListItems extends React.Component {
             // alert(JSON.stringify(this.props.Brands))
             return (
                 <section>
-                    <List className="listScroll">
+                    <List style={{maxHeight:'24rem' }} className="listScroll">
 
                         {this.props.Brands && this.state.chosenBrands && this.props.Brands.map((value) => {
                             const labelId = `checkbox-list-label-${value}`;

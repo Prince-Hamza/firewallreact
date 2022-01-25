@@ -121,8 +121,10 @@ const MainContext = ({ children }) => {
 
     const getAllProductCategories = async (category, page) => {
 
+        category = category == 'Server' ? 'Storage Server' : category
+
         startLoading();
-        var res = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/filter?category=${category}&limit=20&page=${page}`)
+        var res = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/filter?category=${category}&limit=25&page=${page}`)
         if (res.data) {
 
             var products = await getItScopeImages(res.data.Products)
@@ -134,11 +136,16 @@ const MainContext = ({ children }) => {
             EndLoading();
         }
 
-        var brandsRes = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/brandsincategory?category=${category}`)
-        if (brandsRes.data) {
+        try {
+            // alert(category)
+            var brandsRes = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/brandsincategory?category=${category}`)
+            // alert(JSON.stringify(brandsRes.data))
             setBrands(brandsRes.data);
             EndLoading();
+        } catch (ex) {
+            alert(ex)
         }
+
     }
 
 
@@ -173,10 +180,10 @@ const MainContext = ({ children }) => {
             .setProperty(`--${varname}`, value);
     }
 
-    
-    const getItScopeInfo = async (product , index) => {
 
-        if (product.sku.includes('/')) { 
+    const getItScopeInfo = async (product, index) => {
+
+        if (product.sku.includes('/')) {
             product.images = []
             product.primaryImage = ""
             return product
@@ -223,15 +230,15 @@ const MainContext = ({ children }) => {
         // const url = `https://media.itscope.com/img/p/-CeJBx1BcuA74Anp7kEBVgk9FBPgSR8bbFhbnB3kBTY=/aHR0cDovL2luaXNob3AuY29tL2ltZy9nYWxsZXJ5Lzc3ODY4MjYzXzA1NDk1MzU0ODMuanBn`
         // const image = new Image()
 
-        
+
 
     }
 
 
     const getItScopeImages = async (Products) => {  // brand , count , products
 
-        var newPros = Products.map((product , index) => {
-            return getItScopeInfo(product , index)
+        var newPros = Products.map((product, index) => {
+            return getItScopeInfo(product, index)
         })
 
         var resp = await Promise.all(newPros)
