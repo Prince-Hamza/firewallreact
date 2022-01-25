@@ -8,10 +8,14 @@ import { GlobalContext } from "../Context/Context";
 const Index = () => {
     const category = window.location.href.split(`/`)[4].split('-').join(' ')
     const { getAllProductCategories, productCategory, setProductDetail, categoryInfo } = useContext(GlobalContext);
-// const [data , setData] 
-    useEffect( () => {
-        getAllProductCategories(category, 1)
-//        alert(`pros data : ${data}`)
+    // const [data , setData] 
+
+    async function getProducts(category, brand, page) {
+        getAllProductCategories(category, brand, page)
+    }
+
+    useEffect(() => {
+        getProducts(category, 'first', 1)
     }, [])
 
 
@@ -19,7 +23,7 @@ const Index = () => {
     return (
         <div>
             <Hero />
-          {  <CablingEquipment
+            {<CablingEquipment
                 getAllProductCategories={getAllProductCategories}
                 setProductDetail={setProductDetail}
                 productCategory={productCategory}
@@ -27,6 +31,8 @@ const Index = () => {
                 //slug={slug}
                 category={category}
                 categoryInfo={categoryInfo}
+                sendBrands={getProducts}
+
             />
             }
             <TrustPilot />

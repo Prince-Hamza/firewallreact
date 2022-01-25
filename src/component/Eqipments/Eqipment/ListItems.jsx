@@ -8,12 +8,13 @@ import Checkbox from '@material-ui/core/Checkbox';
 import { GlobalContext } from "../../Context/Context";
 import QueryString from "query-string";
 
-export default function CheckboxList({ categoryList, Brands }) {
+export default function CheckboxList({ categoryList, Brands, sendBrands }) {
     const { brandSearch, handleToggle, array } = useContext(GlobalContext);
+    const category = window.location.href.split(`/`)[4].split('-').join(' ')
 
     const filterBrand = Brands && Brands.filter(item => {
         return item.Brand.toLowerCase().includes(brandSearch.toLowerCase());
-    });
+    })
 
     return (
         <List className="listScroll">
@@ -33,9 +34,10 @@ export default function CheckboxList({ categoryList, Brands }) {
                                         tabIndex={-1}
                                         disableRipple
                                         inputProps={{ 'aria-labelledby': labelId }}
+                                        onChange={() => { sendBrands(category, value.Brand, 1) }}
                                     />
                                 </ListItemIcon>
-                                <ListItemText  id={value.Id} primary={value.Brand} />
+                                <ListItemText id={value.Id} primary={value.Brand} />
                                 <ListItemSecondaryAction>
                                     <span >{value.Count}</span>
                                 </ListItemSecondaryAction>
@@ -53,7 +55,7 @@ export default function CheckboxList({ categoryList, Brands }) {
                                     disableRipple
                                 />
                             </ListItemIcon>
-                            <ListItemText  primary={item.name} />
+                            <ListItemText primary={item.name} />
                             <ListItemSecondaryAction>
                                 <span >{value[1]}</span>
                             </ListItemSecondaryAction>

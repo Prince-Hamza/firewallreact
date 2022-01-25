@@ -3,7 +3,7 @@ import ListItems from "./ListItems";
 import "./style.css";
 import { GlobalContext } from "../../Context/Context";
 
-const AccordionComp = ({ title, categoryCount, filterCategoryProducts, categoryList, Brands }) => {
+const AccordionComp = ({ title, categoryCount, filterCategoryProducts, categoryList, Brands , sendBrands }) => {
     const { SetBrandSearch } = useContext(GlobalContext);
     return (
         <div className="shadow-sm mb-4">
@@ -21,7 +21,7 @@ const AccordionComp = ({ title, categoryCount, filterCategoryProducts, categoryL
                 </section>
             }
             <section className={title !== 'Brands' ? "mt-4" : "mt-0"}>
-                <ListItems Brands={Brands} categoryList={categoryList} filterCategoryProducts={filterCategoryProducts} categoryCount={categoryCount} />
+                <ListItems Brands={Brands} categoryList={categoryList} filterCategoryProducts={filterCategoryProducts} categoryCount={categoryCount} sendBrands={sendBrands} />
             </section>
         </div>
     )

@@ -9,7 +9,7 @@ import ECommerce from '../RightSide/ECommerce';
 import { GlobalContext } from "../../Context/Context";
 import { categories } from "./Category";
 
-const CablingEquipment = ({ categoryInfo, slug, productData, parent, productCategory, setProductDetail, getAllProductCategories, catID, category }) => {
+const CablingEquipment = ({ categoryInfo, slug, productData, parent, productCategory, setProductDetail, getAllProductCategories, catID, category , sendBrands }) => {
     const { checked, Brands } = useContext(GlobalContext);
 
     let products = [];
@@ -43,6 +43,7 @@ const CablingEquipment = ({ categoryInfo, slug, productData, parent, productCate
 
     let categoryList = categories[category];
 
+
     return <>
         <div className="pb-5">
             <section className="text-center bygga-parent equip-parent py-5">
@@ -53,7 +54,7 @@ const CablingEquipment = ({ categoryInfo, slug, productData, parent, productCate
             <section className="container">
                 <Row>
                     <Col lg={3} md={4}>
-                        <AccordionComp Brands={Brands} categoryCount={categoryCount} title={"Brands"} />
+                        <AccordionComp Brands={Brands} sendBrands={sendBrands} categoryCount={categoryCount} title={"Brands"}  />
                         <AccordionComp parent={parent} categoryList={categoryList} title={"Categories"} />
                         <Discover />
                         <Connect />

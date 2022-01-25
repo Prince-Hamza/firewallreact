@@ -119,33 +119,40 @@ const MainContext = ({ children }) => {
 
 
 
-    const getAllProductCategories = async (category, page) => {
+    const getAllProductCategories = async (category, brand, page) => {
 
-        category = category == 'Server' ? 'Storage Server' : category
+        category = category == 'Server' ? 'Blade Servers' : category
 
         startLoading();
-        var res = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/filter?category=${category}&limit=25&page=${page}`)
-        if (res.data) {
 
-            var products = await getItScopeImages(res.data.Products)
-            // alert(products)
-
-
-            setCategory(products)
-            setCategoryInfo(res.data?.categoryInfo)
-            EndLoading();
-        }
-
+        let brands = []
         try {
-            // alert(category)
-            var brandsRes = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/brandsincategory?category=${category}`)
-            // alert(JSON.stringify(brandsRes.data))
-            setBrands(brandsRes.data);
-            EndLoading();
+            if (category && page) {
+                var brandsRes = await axios.get(`https://shop.firewallforce.se/wp-json/wc/v3/brandsincategory?category=${category}`)
+                brands = brandsRes.data
+                setBrands(brands);
+            }
         } catch (ex) {
-            alert(ex)
+            //alert(ex)
         }
 
+        brand = brand === 'first' ? brands[0].Brand : brand
+
+        if (category && brand && page) {
+            // alert(`category: ${category} | brand : ${brand} | page: ${page}`)
+
+            axios.get(`https://woo-api-apicenter.herokuapp.com/api/filterbrandsandcategory?category=${category}&brand=${brand}&limit=24&page=1`).then(async (res) => {
+                //setCategoryInfo(res.data?.categoryInfo)
+                // alert(JSON.stringify(res.data))
+                var products = await getItScopeImages(res.data)
+                setCategory(products)
+                EndLoading()
+                return products
+            }).catch((err) => {
+                //alert(err)
+            })
+
+        }
     }
 
 
@@ -320,18 +327,20 @@ const MainContext = ({ children }) => {
     }
 
     // filter checkBox categories
-    const handleToggle = (value, category, Brands) => {
-        if (value != undefined && value !== null) {
-            if (array === value) {
-                setArray(null);
-                getAllProductCategories(category, 1);
-            }
-            else {
-                setArray(value);
-                if (category !== undefined && Brands !== undefined) {
-                    checkBrands(category, Brands);
-                }
-            }
+    const handleToggle = (brand, category) => {
+        if (brand != undefined && brand !== null) {
+            // alert(brand)
+            getAllProductCategories(category, brand, 1)
+
+            // if (array === value) {
+            //     setArray(null);
+            //     getAllProductCategories(category, 1);
+            // } else {
+            //     setArray(value);
+            //     if (category !== undefined && Brands !== undefined) {
+            //         checkBrands(category, Brands);
+            //     }
+            // }
             // if (array.includes(value)) {
             //     let _filter = [];
             //     array.forEach(item => {
@@ -348,6 +357,8 @@ const MainContext = ({ children }) => {
             //     setArray([...array, value]);
             // }
         }
+        //  alert(`value : ${JSON.stringify(value)}`)
+
     }
 
     return <GlobalContext.Provider value={{

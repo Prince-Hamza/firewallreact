@@ -31,7 +31,7 @@ const Footer = () => {
                             <br />
                             <br />
                             <span className="text-white font-size">
-                                Organization num &copy; 0786123
+                                Organization num &copy; 559296-9330
                             </span>
 
                         </section>

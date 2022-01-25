@@ -37,43 +37,15 @@ const ProductDetail = (props) => {
   const location = useLocation();
 
   useEffect(async () => {
-    // alert(`Props: ${JSON.stringify(location.state)}`)
 
-    // bannerByBrands()
     setProductDetail(location.state ? location.state : false)
-    // alert(location.state.images)
+
     setDefault(location.state.images[0])
     setInfoRecieved(location.state ? true : false)
-
-    // productDetail.attributes.forEach((item)=>{
-    //    if (item.name == "Html Specs") {
-    //      setHtmlSpecs(item.options[0])
-    //      alert(item.options[0])
-    //     }
-    // })
-
 
 
 
     document.title = productDetail.name || productDetail.title || ''
-    // alert(`images :: ${(productDetail.images)}`)
-
-    // if (productDetail.sku) {
-    //   let sku = productDetail.sku
-    //   sku = sku.includes('+') ? sku.split('+').join('$p') : sku
-
-    //   if (!sku.includes('/')) {
-    //     var pro = await axios.get(`https://woo-api-apicenter.herokuapp.com/api/itScopeProduct?sku=${sku}`)
-    //     // alert(JSON.stringify(pro.data))
-    //     var htmlSpex = pro.data.htmlSpecs
-    //     alert(`${htmlSpex}`)
-    //     setDefault(productDetail.images[0])
-    //     productDetail.attributes.push({ name: "Html Specs", options: [htmlSpex] })
-
-    //     setProductDetail(productDetail)
-    //   }
-
-    // }
 
 
   })
@@ -194,17 +166,19 @@ const ProductDetail = (props) => {
         <section className='container sec-route my-5' >
           <Row>
             <section className='d-flex'>
-              <span className='fw-bold text-small' style={{ color: '#575757', fontFamily: 'Poppins' }}>Home</span>
+
+              <span onClick={()=> {history.push('/')}} className='fw-bold text-small' style={{ color: '#575757', fontFamily: 'Poppins' }}>Home</span>
               <i
                 className='fa fa-chevron-right text-danger mx-2'
                 aria-hidden='true'
               ></i>
 
-              <span className='fw-bold text-small' style={{ color: '#575757', fontFamily: 'Poppins' }}>
-                {productDetail &&
-                  productDetail?.categories &&
-                  productDetail.categories[0]?.name}
-              </span>
+              {productDetail && productDetail?.categories &&
+                <span onClick={() => { history.push(`/product-category/${productDetail.categories[0]?.name}`) }} className='fw-bold text-small' style={{ color: '#575757', fontFamily: 'Poppins' }}>
+                  {productDetail.categories[0]?.name}
+                </span>
+              }
+
               <i
                 className='fa fa-chevron-right text-danger mx-2'
                 aria-hidden='true'
@@ -222,11 +196,6 @@ const ProductDetail = (props) => {
                 <div style={{ ...Styles.stealthImage, backgroundImage: maskImage(mainPic || defaultImage), width: '100%', height: '100%' }} >
 
                 </div>
-                {/* <img
-                  className='product-detail-img'
-                  src={maskImage(defaultImage)}
-                  alt={''}
-                /> */}
 
               </section>
 
@@ -234,58 +203,32 @@ const ProductDetail = (props) => {
               <section className='sub-images-grid mt-4'>
                 {productDetail.images &&
                   productDetail.images.map((item, index) => {
-                    // alert(item)
                     return (
                       <div
                         style={{ ...Styles.ImagesItem, ...Styles.stealthImage, backgroundImage: maskImage(item), height: '60px' }}
                         onClick={() => { setMainPic(item) }}
-                      // className='sub-img-container shadow'
                       >
-                        {/* <img className='sub-img' src={item} alt='' onClick={() => {
-                          setDefault(item)
-                          // alert(`default : ${item}`)
-                        }} /> */}
 
                       </div>
                     )
                   })}
               </section>
 
-              {/* <section style={Styles.ImagesContainer} >
-              {images &&
-                images.map((item, index) => {
-                  return (
-                    <div
-                      style={Styles.ImagesItem}
-                      key={index}
-                      onClick={() => setDefault(index + 1)}
-                    >
-                  <img style={{width:'5vh' , height:'5vh'}}  src={item.src} alt='' />
-
-                    </div>
-                  )
-                })
-              }
-            </section> */}
-
-
-
-              {/* <MicroProduct/> */}
             </Col>
 
             <Col className='py-4'>
               <h5 className='fw-bold' style={{ color: '#575757', fontFamily: 'Poppins', letterSpacing: '3px' }}>
                 {' '}
                 {
-                  productDetail.name ? productDetail?.name.split('&#8211;').join('<span style="color:red;font:bold italic 20px times new roman">.</span>')
+                  productDetail.name ? ReactHtmlParser(productDetail?.name.split('-').join('<span style="color:red;font:bold italic 20px times new roman"></span>'))
                     :
-                    productDetail?.title.split('&#8211;').join('<span style="color:blue;font:bold italic 20px times new roman">.</span>')
+                    ReactHtmlParser(productDetail?.title.split('-').join('<span style="color:blue;font:bold italic 20px times new roman"></span>'))
                 }
               </h5>
               <div className='justify shortDes px-1' style={{ overflow: 'auto' }}>
                 <span style={{ fontSize: 'small', color: '#575757', fontFamily: 'Poppins' }}>
                   {ReactHtmlParser(
-                    productDetail && productDetail.short_description.split('&#8211;').join('<span style="color:red;font:bold italic 20px times new roman">.</span>')
+                    productDetail && productDetail.short_description.split('&#8211;').join('<span style="color:red;font:bold italic 20px times new roman"></span>')
                   )}
                 </span>
                 {console.log(

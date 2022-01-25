@@ -63,12 +63,19 @@ const FeaturedSignup = () => {
             <section className="container">
                 <Row>
                     <Col lg={8} className="text-center">
-                        <span className=" h4  " style={{ borderBottom: "3px solid #dc3545", fontFamily: 'Poppins', color: '#575757' }}>Featured Brands</span>
+                        <div className=" h4  " style={{ borderBottom: "3px solid #dc3545", fontFamily: 'Poppins', color: '#575757', marginBottom: '5%' }}>
+                            Featured Brands
+                        </div>
+
+                        <br />
 
                         <div className="brand-img-div my-1  "></div>
+
                     </Col>
 
+
                     <Col style={{ height: '20%' }} className="text-center py-3 back-color" lg={4}>
+
                         <div className="h-100 py-4 bg-white">
                             <div className="d-flex justify-content-around mb-5">
                                 <span style={{ color: '#575757' }} className={!flag ? "account-active account" : "account"} onClick={() => setFlag(false)} >Login</span>
